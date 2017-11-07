@@ -26,7 +26,7 @@ public class Baralho{
                 listaCarta.add(new Numerada(cor, num));
             }
         }
-        
+
         //Criação cartas 0
         for(cor = 1; cor <= 4; cor++){
             listaCarta.add(new Numerada(cor, 0));//Numerada zero possui uma de cada cor(0)
