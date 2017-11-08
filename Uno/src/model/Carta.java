@@ -17,6 +17,7 @@ public abstract class Carta {
     public Carta(int cor, int numero) {
         this.cor = cor;
         this.numero = numero;
+        this.status = 1;
     }
 
     public int getStatus() {
