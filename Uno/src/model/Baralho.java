@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Baralho{
-    protected static List listaCarta;
+    protected static List<Carta> listaCarta;
 
     public static void montar() {
         int num, cor, i;
