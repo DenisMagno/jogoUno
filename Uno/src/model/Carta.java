@@ -29,5 +29,15 @@ public abstract class Carta {
         this.status = status;
     }
 
+    public int getCor() {
+        return cor;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    
+    
     public abstract void jogar();
 }

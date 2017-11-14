@@ -13,7 +13,11 @@ public class Mao extends Baralho{
         defineMao();
     }
 
-    public List getListaCarta() {
+    public Carta getCarta(int i) {
+        return cartas.get(i);
+    }
+    
+    public List getListaCartas() {
         return cartas;
     }
 
@@ -26,16 +30,16 @@ public class Mao extends Baralho{
 
         Random random = new Random();
 
-        int rand = random.nextInt(108);
-
         int i = 0;
-        while(i < this.quantidade){
+        do{
+            int rand = random.nextInt(108);
+
             if(Baralho.listaCarta.get(rand).getStatus() != 0){
                 this.cartas.add(Baralho.listaCarta.get(rand));
                 Baralho.listaCarta.get(rand).setStatus(0);
-
+                
                 i++;
             }
-        }
+        }while(i < this.quantidade);
     }
 }
