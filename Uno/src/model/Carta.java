@@ -36,8 +36,6 @@ public abstract class Carta {
     public int getNumero() {
         return numero;
     }
-
-    
     
     public abstract void jogar();
 }
