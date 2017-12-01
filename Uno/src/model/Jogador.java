@@ -20,8 +20,4 @@ public class Jogador {
     public Mao getMao() {
         return mao;
     }
-
-    public void setMao(Mao mao) {
-        this.mao = mao;
-    }
 }

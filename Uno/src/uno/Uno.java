@@ -7,14 +7,15 @@ public class Uno {
         Baralho.montar();
 
         Jogador j1 = new Jogador("Denis");
+        Jogador j2 = new Jogador("Gabriel");
         
         Compra monteCompra = new Compra();
         
-        System.out.println("Quantidade: "+ monteCompra.getListaCartas().size());
-        
-        int i;
-        for(i = 0; i < monteCompra.getListaCartas().size(); i++){
-            System.out.println("Numero: "+ i +"; cor: " + monteCompra.getCarta(i).getCor());
-        }
+        Descarte pilhaDescarte = new Descarte();
+
+        System.out.println("Quantidade na pilha de compras: "+ monteCompra.getListaCartas().size());
+        System.out.println("Quantidade na pilha de descarte: "+ pilhaDescarte.getListaCartas().size());
+        System.out.println("Quantidade na mão do jogador Denis: "+ j1.getMao().getListaCartas().size());
+        System.out.println("Quantidade na mão do jogador Gabriel: "+ j2.getMao().getListaCartas().size());
     }
 }

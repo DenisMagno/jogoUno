@@ -7,9 +7,9 @@ public class Jogo {
         int i;
 
         for(i = 0; i < mao.getListaCartas().size(); i++){
-            if(mao.getCarta(i).getNumero() == descarte.getUltimaCarta().getNumero()){
+            if(mao.leCarta(i).getNumero() == descarte.getCarta().getNumero()){
                 return true;
-            }else if(mao.getCarta(i).getCor() == descarte.getUltimaCarta().getCor()){
+            }else if(mao.leCarta(i).getCor() == descarte.getCarta().getCor()){
                 return true;
             }
         }

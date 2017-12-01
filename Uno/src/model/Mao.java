@@ -13,8 +13,15 @@ public class Mao extends Baralho{
         defineMao();
     }
 
+    //Literalmente TIRA a carta da mão do jogador
     public Carta getCarta(int i) {
-        return cartas.get(i);
+        Carta carta = cartas.get(i);
+        
+        cartas.remove(i);
+        
+        this.quantidade--; 
+
+        return carta;
     }
 
     public void setCarta(Carta carta) {
@@ -24,6 +31,11 @@ public class Mao extends Baralho{
     
     public List getListaCartas() {
         return cartas;
+    }
+    
+    //Retorna uma CÓPIA da carta da mão do jogador para comparação
+    public Carta leCarta(int i) {
+        return cartas.get(i);
     }
 
     private void defineMao(){

@@ -13,18 +13,24 @@ public class Compra extends Baralho{
         defineCompra();
     }
     
-    public Carta getCarta(int i) {
-        return cartas.get(i);
+    //Literalmente TIRA a ultima carta do monte de compras
+    public Carta getCarta() {
+        Carta carta = cartas.get(cartas.size() - 1);
+
+        cartas.remove(cartas.size() - 1);
+
+        return carta;
     }
 
-    public void setCarta(Carta carta) {
-        this.cartas.add(carta);
-    } 
-    
     public List getListaCartas() {
         return cartas;
     }
 
+    //Retorna uma CÓPIA da carta do monte de compra para comparação
+    public Carta leCarta(int i) {
+        return cartas.get(i);
+    }
+    
     private void defineCompra(){
         int i;
         
