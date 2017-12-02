@@ -187,7 +187,7 @@ public class InicioView extends javax.swing.JFrame {
         setModalExclusionType(null);
 
         jLabel1.setFont(new java.awt.Font("Alegreya Sans Light", 1, 36)); // NOI18N
-        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\Área de Trabalho\\uno\\jogoUno\\Uno\\src\\view\\imagem\\oie_transparent.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/imagem/oie_transparent.png"))); // NOI18N
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Jogador    1", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Alegreya Sans Light", 0, 14))); // NOI18N
 
@@ -291,7 +291,7 @@ public class InicioView extends javax.swing.JFrame {
 
         jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Comprar", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Alegreya Sans Light", 0, 14))); // NOI18N
 
-        jbComprar.setIcon(new javax.swing.ImageIcon("D:\\Área de Trabalho\\uno\\jogoUno\\Uno\\src\\view\\imagem\\compra.png")); // NOI18N
+        jbComprar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/imagem/compra.png"))); // NOI18N
         jbComprar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jbComprarActionPerformed(evt);
@@ -305,7 +305,7 @@ public class InicioView extends javax.swing.JFrame {
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addGap(19, 19, 19)
                 .addComponent(jbComprar)
-                .addContainerGap(23, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
