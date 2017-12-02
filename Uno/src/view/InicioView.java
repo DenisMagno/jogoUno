@@ -1,14 +1,18 @@
 package view;
 
+import dataTransferObject.CartaDto;
+import java.util.Enumeration;
+import javax.swing.AbstractButton;
 import javax.swing.ButtonGroup;
 import javax.swing.JOptionPane;
 import model.Jogo;
 
 public class InicioView extends javax.swing.JFrame {
-    Jogo jogo;
+     Jogo jogo;
+     ButtonGroup grupo;
 
     public InicioView() {
-        initComponents();
+       initComponents();
 
         String nome1 = JOptionPane.showInputDialog(null, "Digite o nome do primeiro jogador: ");
         String nome2 = JOptionPane.showInputDialog(null, "Digite o nome do segundo jogador: ");
@@ -16,7 +20,7 @@ public class InicioView extends javax.swing.JFrame {
         this.jogo = new Jogo();
         this.jogo.iniciaJogo(nome1, nome2);
 
-        ButtonGroup grupo = new ButtonGroup();
+        grupo = new ButtonGroup();
         grupo.add(this.rbVerde0);
         grupo.add(this.rbVermelho0);
         grupo.add(this.rbAmarelo0);
@@ -74,8 +78,7 @@ public class InicioView extends javax.swing.JFrame {
         this.jlNomeJ1.setText(this.jogo.jogador1.getNome());
         this.jlNomeJ2.setText(this.jogo.jogador2.getNome());
         
-        //Desabilita radio button
-        this.rbVerde0.setEnabled(false);
+        this.montaRadioButtons();
     }
 
     @SuppressWarnings("unchecked")
@@ -737,7 +740,593 @@ public class InicioView extends javax.swing.JFrame {
     private void jbComprarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbComprarActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jbComprarActionPerformed
+    private void montaRadioButtons(){
+        //Desabilita todos os rádio buttons
+        Enumeration<AbstractButton> enumeration = grupo.getElements();
+        while (enumeration.hasMoreElements()) {
+            enumeration.nextElement().setEnabled(false);
+        }
+        
+        //Habilita apenas os radio buttons onde o jogador possui carta.
+        int i = 0;
+        if(Jogo.getTurno() == 1){
+            while(i < this.jogo.jogador1.getMao().getListaCartas().size()){
+                if(this.jogo.jogador1.getMao().leCarta(i).getCor() == 1){
+                    switch (this.jogo.jogador1.getMao().leCarta(i).getNumero()) {
+                        case 0:
+                            this.rbAmarelo0.setEnabled(true);
+                            this.rbAmarelo0.setSelected(true);
+                            break;
+                        case 1:
+                            this.rbAmarelo1.setEnabled(true);
+                            this.rbAmarelo1.setSelected(true);
+                            break;
+                        case 2:
+                            this.rbAmarelo2.setEnabled(true);
+                            this.rbAmarelo2.setSelected(true);
+                            break;
+                        case 3:
+                            this.rbAmarelo3.setEnabled(true);
+                            this.rbAmarelo3.setSelected(true);
+                            break;
+                        case 4:
+                            this.rbAmarelo4.setEnabled(true);
+                            this.rbAmarelo4.setSelected(true);
+                            break;
+                        case 5:
+                            this.rbAmarelo5.setEnabled(true);
+                            this.rbAmarelo5.setSelected(true);
+                            break;
+                        case 6:
+                            this.rbAmarelo6.setEnabled(true);
+                            this.rbAmarelo6.setSelected(true);
+                            break;
+                        case 7:
+                            this.rbAmarelo7.setEnabled(true);
+                            this.rbAmarelo7.setSelected(true);
+                            break;
+                        case 8:
+                            this.rbAmarelo8.setEnabled(true);
+                            this.rbAmarelo8.setSelected(true);
+                            break;
+                        case 9:
+                            this.rbAmarelo9.setEnabled(true);
+                            this.rbAmarelo9.setSelected(true);
+                            break;
+                        case 10:
+                            this.rbAmareloBloqueio.setEnabled(true);
+                            this.rbAmareloBloqueio.setSelected(true);
+                            break;
+                        case 11:
+                            this.rbAmareloInverte.setEnabled(true);
+                            this.rbAmareloInverte.setSelected(true);
+                            break;
+                        case 12:
+                            this.rbAmareloMaisDois.setEnabled(true);
+                            this.rbAmareloMaisDois.setSelected(true);
+                            break;
+                        default:
+                            break;
+                    }
+                }else if(this.jogo.jogador1.getMao().leCarta(i).getCor() == 2){
+                    switch (this.jogo.jogador1.getMao().leCarta(i).getNumero()) {
+                        case 0:
+                            this.rbAzul0.setEnabled(true);
+                            this.rbAzul0.setSelected(true);
+                            break;
+                        case 1:
+                            this.rbAzul1.setEnabled(true);
+                            this.rbAzul1.setSelected(true);
+                            break;
+                        case 2:
+                            this.rbAzul2.setEnabled(true);
+                            this.rbAzul2.setSelected(true);
+                            break;
+                        case 3:
+                            this.rbAzul3.setEnabled(true);
+                            this.rbAzul3.setSelected(true);
+                            break;
+                        case 4:
+                            this.rbAzul4.setEnabled(true);
+                            this.rbAzul4.setSelected(true);
+                            break;
+                        case 5:
+                            this.rbAzul5.setEnabled(true);
+                            this.rbAzul5.setSelected(true);
+                            break;
+                        case 6:
+                            this.rbAzul6.setEnabled(true);
+                            this.rbAzul6.setSelected(true);
+                            break;
+                        case 7:
+                            this.rbAzul7.setEnabled(true);
+                            this.rbAzul7.setSelected(true);
+                            break;
+                        case 8:
+                            this.rbAzul8.setEnabled(true);
+                            this.rbAzul8.setSelected(true);
+                            break;
+                        case 9:
+                            this.rbAzul9.setEnabled(true);
+                            this.rbAzul9.setSelected(true);
+                            break;
+                        case 10:
+                            this.rbAzulBloqueio.setEnabled(true);
+                            this.rbAzulBloqueio.setSelected(true);
+                            break;
+                        case 11:
+                            this.rbAzulInverte.setEnabled(true);
+                            this.rbAzulInverte.setSelected(true);
+                            break;
+                        case 12:
+                            this.rbAzulMaisDois.setEnabled(true);
+                            this.rbAzulMaisDois.setSelected(true);
+                            break;
+                        default:
+                            break;
+                    }
+                }else if(this.jogo.jogador1.getMao().leCarta(i).getCor() == 3){
+                    switch (this.jogo.jogador1.getMao().leCarta(i).getNumero()) {
+                        case 0:
+                            this.rbVerde0.setEnabled(true);
+                            this.rbVerde0.setSelected(true);
+                            break;
+                        case 1:
+                            this.rbVerde1.setEnabled(true);
+                            this.rbVerde1.setSelected(true);
+                            break;
+                        case 2:
+                            this.rbVerde2.setEnabled(true);
+                            this.rbVerde2.setSelected(true);
+                            break;
+                        case 3:
+                            this.rbVerde3.setEnabled(true);
+                            this.rbVerde3.setSelected(true);
+                            break;
+                        case 4:
+                            this.rbVerde4.setEnabled(true);
+                            this.rbVerde4.setSelected(true);
+                            break;
+                        case 5:
+                            this.rbVerde5.setEnabled(true);
+                            this.rbVerde5.setSelected(true);
+                            break;
+                        case 6:
+                            this.rbVerde6.setEnabled(true);
+                            this.rbVerde6.setSelected(true);
+                            break;
+                        case 7:
+                            this.rbVerde7.setEnabled(true);
+                            this.rbVerde7.setSelected(true);
+                            break;
+                        case 8:
+                            this.rbVerde8.setEnabled(true);
+                            this.rbVerde8.setSelected(true);
+                            break;
+                        case 9:
+                            this.rbVerde9.setEnabled(true);
+                            this.rbVerde9.setSelected(true);
+                            break;
+                        case 10:
+                            this.rbVerdeBloqueio.setEnabled(true);
+                            this.rbVerdeBloqueio.setSelected(true);
+                            break;
+                        case 11:
+                            this.rbVerdeInverte.setEnabled(true);
+                            this.rbVerdeInverte.setSelected(true);
+                            break;
+                        case 12:
+                            this.rbVerdeMaisDois.setEnabled(true);
+                            this.rbVerdeMaisDois.setSelected(true);
+                            break;
+                        default:
+                            break;
+                    }
+                }else if(this.jogo.jogador1.getMao().leCarta(i).getCor() == 4){
+                    switch (this.jogo.jogador1.getMao().leCarta(i).getNumero()) {
+                        case 0:
+                            this.rbVermelho0.setEnabled(true);
+                            this.rbVermelho0.setSelected(true);
+                            break;
+                        case 1:
+                            this.rbVermelho1.setEnabled(true);
+                            this.rbVermelho1.setSelected(true);
+                            break;
+                        case 2:
+                            this.rbVermelho2.setEnabled(true);
+                            this.rbVermelho2.setSelected(true);
+                            break;
+                        case 3:
+                            this.rbVermelho3.setEnabled(true);
+                            this.rbVermelho3.setSelected(true);
+                            break;
+                        case 4:
+                            this.rbVermelho4.setEnabled(true);
+                            this.rbVermelho4.setSelected(true);
+                            break;
+                        case 5:
+                            this.rbVermelho5.setEnabled(true);
+                            this.rbVermelho5.setSelected(true);
+                            break;
+                        case 6:
+                            this.rbVermelho6.setEnabled(true);
+                            this.rbVermelho6.setSelected(true);
+                            break;
+                        case 7:
+                            this.rbVermelho7.setEnabled(true);
+                            this.rbVermelho7.setSelected(true);
+                            break;
+                        case 8:
+                            this.rbVermelho8.setEnabled(true);
+                            this.rbVermelho8.setSelected(true);
+                            break;
+                        case 9:
+                            this.rbVermelho9.setEnabled(true);
+                            this.rbVermelho9.setSelected(true);
+                            break;
+                        case 10:
+                            this.rbVermelhoBloqueio.setEnabled(true);
+                            this.rbVermelhoBloqueio.setSelected(true);
+                            break;
+                        case 11:
+                            this.rbVermelhoInverte.setEnabled(true);
+                            this.rbVermelhoInverte.setSelected(true);
+                            break;
+                        case 12:
+                            this.rbVermelhoMaisDois.setEnabled(true);
+                            this.rbVermelhoMaisDois.setSelected(true);
+                            break;
+                        default:
+                            break;
+                    }
+                }
+                i++;
+            }
+        }else{
+            while(i < this.jogo.jogador2.getMao().getListaCartas().size()){
+                if(this.jogo.jogador2.getMao().leCarta(i).getCor() == 1){
+                    switch (this.jogo.jogador2.getMao().leCarta(i).getNumero()) {
+                        case 0:
+                            this.rbAmarelo0.setEnabled(true);
+                            this.rbAmarelo0.setSelected(true);
+                            break;
+                        case 1:
+                            this.rbAmarelo1.setEnabled(true);
+                            this.rbAmarelo1.setSelected(true);
+                            break;
+                        case 2:
+                            this.rbAmarelo2.setEnabled(true);
+                            this.rbAmarelo2.setSelected(true);
+                            break;
+                        case 3:
+                            this.rbAmarelo3.setEnabled(true);
+                            this.rbAmarelo3.setSelected(true);
+                            break;
+                        case 4:
+                            this.rbAmarelo4.setEnabled(true);
+                            this.rbAmarelo4.setSelected(true);
+                            break;
+                        case 5:
+                            this.rbAmarelo5.setEnabled(true);
+                            this.rbAmarelo5.setSelected(true);
+                            break;
+                        case 6:
+                            this.rbAmarelo6.setEnabled(true);
+                            this.rbAmarelo6.setSelected(true);
+                            break;
+                        case 7:
+                            this.rbAmarelo7.setEnabled(true);
+                            this.rbAmarelo7.setSelected(true);
+                            break;
+                        case 8:
+                            this.rbAmarelo8.setEnabled(true);
+                            this.rbAmarelo8.setSelected(true);
+                            break;
+                        case 9:
+                            this.rbAmarelo9.setEnabled(true);
+                            this.rbAmarelo9.setSelected(true);
+                            break;
+                        case 10:
+                            this.rbAmareloBloqueio.setEnabled(true);
+                            this.rbAmareloBloqueio.setSelected(true);
+                            break;
+                        case 11:
+                            this.rbAmareloInverte.setEnabled(true);
+                            this.rbAmareloInverte.setSelected(true);
+                            break;
+                        case 12:
+                            this.rbAmareloMaisDois.setEnabled(true);
+                            this.rbAmareloMaisDois.setSelected(true);
+                            break;
+                        default:
+                            break;
+                    }
+                }else if(this.jogo.jogador2.getMao().leCarta(i).getCor() == 2){
+                    switch (this.jogo.jogador2.getMao().leCarta(i).getNumero()) {
+                        case 0:
+                            this.rbAzul0.setEnabled(true);
+                            this.rbAzul0.setSelected(true);
+                            break;
+                        case 1:
+                            this.rbAzul1.setEnabled(true);
+                            this.rbAzul1.setSelected(true);
+                            break;
+                        case 2:
+                            this.rbAzul2.setEnabled(true);
+                            this.rbAzul2.setSelected(true);
+                            break;
+                        case 3:
+                            this.rbAzul3.setEnabled(true);
+                            this.rbAzul3.setSelected(true);
+                            break;
+                        case 4:
+                            this.rbAzul4.setEnabled(true);
+                            this.rbAzul4.setSelected(true);
+                            break;
+                        case 5:
+                            this.rbAzul5.setEnabled(true);
+                            this.rbAzul5.setSelected(true);
+                            break;
+                        case 6:
+                            this.rbAzul6.setEnabled(true);
+                            this.rbAzul6.setSelected(true);
+                            break;
+                        case 7:
+                            this.rbAzul7.setEnabled(true);
+                            this.rbAzul7.setSelected(true);
+                            break;
+                        case 8:
+                            this.rbAzul8.setEnabled(true);
+                            this.rbAzul8.setSelected(true);
+                            break;
+                        case 9:
+                            this.rbAzul9.setEnabled(true);
+                            this.rbAzul9.setSelected(true);
+                            break;
+                        case 10:
+                            this.rbAzulBloqueio.setEnabled(true);
+                            this.rbAzulBloqueio.setSelected(true);
+                            break;
+                        case 11:
+                            this.rbAzulInverte.setEnabled(true);
+                            this.rbAzulInverte.setSelected(true);
+                            break;
+                        case 12:
+                            this.rbAzulMaisDois.setEnabled(true);
+                            this.rbAzulMaisDois.setSelected(true);
+                            break;
+                        default:
+                            break;
+                    }
+                }else if(this.jogo.jogador2.getMao().leCarta(i).getCor() == 3){
+                    switch (this.jogo.jogador2.getMao().leCarta(i).getNumero()) {
+                        case 0:
+                            this.rbVerde0.setEnabled(true);
+                            this.rbVerde0.setSelected(true);
+                            break;
+                        case 1:
+                            this.rbVerde1.setEnabled(true);
+                            this.rbVerde1.setSelected(true);
+                            break;
+                        case 2:
+                            this.rbVerde2.setEnabled(true);
+                            this.rbVerde2.setSelected(true);
+                            break;
+                        case 3:
+                            this.rbVerde3.setEnabled(true);
+                            this.rbVerde3.setSelected(true);
+                            break;
+                        case 4:
+                            this.rbVerde4.setEnabled(true);
+                            this.rbVerde4.setSelected(true);
+                            break;
+                        case 5:
+                            this.rbVerde5.setEnabled(true);
+                            this.rbVerde5.setSelected(true);
+                            break;
+                        case 6:
+                            this.rbVerde6.setEnabled(true);
+                            this.rbVerde6.setSelected(true);
+                            break;
+                        case 7:
+                            this.rbVerde7.setEnabled(true);
+                            this.rbVerde7.setSelected(true);
+                            break;
+                        case 8:
+                            this.rbVerde8.setEnabled(true);
+                            this.rbVerde8.setSelected(true);
+                            break;
+                        case 9:
+                            this.rbVerde9.setEnabled(true);
+                            this.rbVerde9.setSelected(true);
+                            break;
+                        case 10:
+                            this.rbVerdeBloqueio.setEnabled(true);
+                            this.rbVerdeBloqueio.setSelected(true);
+                            break;
+                        case 11:
+                            this.rbVerdeInverte.setEnabled(true);
+                            this.rbVerdeInverte.setSelected(true);
+                            break;
+                        case 12:
+                            this.rbVerdeMaisDois.setEnabled(true);
+                            this.rbVerdeMaisDois.setSelected(true);
+                            break;
+                        default:
+                            break;
+                    }
+                }else if(this.jogo.jogador2.getMao().leCarta(i).getCor() == 4){
+                    switch (this.jogo.jogador2.getMao().leCarta(i).getNumero()) {
+                        case 0:
+                            this.rbVermelho0.setEnabled(true);
+                            this.rbVermelho0.setSelected(true);
+                            break;
+                        case 1:
+                            this.rbVermelho1.setEnabled(true);
+                            this.rbVermelho1.setSelected(true);
+                            break;
+                        case 2:
+                            this.rbVermelho2.setEnabled(true);
+                            this.rbVermelho2.setSelected(true);
+                            break;
+                        case 3:
+                            this.rbVermelho3.setEnabled(true);
+                            this.rbVermelho3.setSelected(true);
+                            break;
+                        case 4:
+                            this.rbVermelho4.setEnabled(true);
+                            this.rbVermelho4.setSelected(true);
+                            break;
+                        case 5:
+                            this.rbVermelho5.setEnabled(true);
+                            this.rbVermelho5.setSelected(true);
+                            break;
+                        case 6:
+                            this.rbVermelho6.setEnabled(true);
+                            this.rbVermelho6.setSelected(true);
+                            break;
+                        case 7:
+                            this.rbVermelho7.setEnabled(true);
+                            this.rbVermelho7.setSelected(true);
+                            break;
+                        case 8:
+                            this.rbVermelho8.setEnabled(true);
+                            this.rbVermelho8.setSelected(true);
+                            break;
+                        case 9:
+                            this.rbVermelho9.setEnabled(true);
+                            this.rbVermelho9.setSelected(true);
+                            break;
+                        case 10:
+                            this.rbVermelhoBloqueio.setEnabled(true);
+                            this.rbVermelhoBloqueio.setSelected(true);
+                            break;
+                        case 11:
+                            this.rbVermelhoInverte.setEnabled(true);
+                            this.rbVermelhoInverte.setSelected(true);
+                            break;
+                        case 12:
+                            this.rbVermelhoMaisDois.setEnabled(true);
+                            this.rbVermelhoMaisDois.setSelected(true);
+                            break;
+                        default:
+                            break;
+                    }
+                }
+                i++;
+            }
+        }
+    }
 
+    //Verifica qual radio button foi clicado e retorna objeto com cor e numero da carta escolhida.
+    private CartaDto verificaRadioButton(){
+        if(this.rbAmarelo0.isSelected()){
+            return new CartaDto(1, 0);
+        }else if(this.rbAmarelo1.isSelected()){
+            return new CartaDto(1, 1);
+        }else if(this.rbAmarelo2.isSelected()){
+            return new CartaDto(1, 2);
+        }else if(this.rbAmarelo3.isSelected()){
+            return new CartaDto(1, 3);
+        }else if(this.rbAmarelo4.isSelected()){
+            return new CartaDto(1, 4);
+        }else if(this.rbAmarelo5.isSelected()){
+            return new CartaDto(1, 5);
+        }else if(this.rbAmarelo6.isSelected()){
+            return new CartaDto(1, 6);
+        }else if(this.rbAmarelo7.isSelected()){
+            return new CartaDto(1, 7);
+        }else if(this.rbAmarelo8.isSelected()){
+            return new CartaDto(1, 8);
+        }else if(this.rbAmarelo9.isSelected()){
+            return new CartaDto(1, 9);
+        }else if(this.rbAmareloBloqueio.isSelected()){
+            return new CartaDto(1, 10);
+        }else if(this.rbAmareloInverte.isSelected()){
+            return new CartaDto(1, 11);
+        }else if(this.rbAmareloMaisDois.isSelected()){
+            return new CartaDto(1, 12);
+        }else if(this.rbAzul0.isSelected()){
+            return new CartaDto(2,0);
+        }else if(this.rbAzul1.isSelected()){
+            return new CartaDto(2,1);
+        }else if(this.rbAzul2.isSelected()){
+            return new CartaDto(2,2);
+        }else if(this.rbAzul3.isSelected()){
+            return new CartaDto(2,3);
+        }else if(this.rbAzul4.isSelected()){
+            return new CartaDto(2,4);
+        }else if(this.rbAzul5.isSelected()){
+            return new CartaDto(2,5);
+        }else if(this.rbAzul6.isSelected()){
+            return new CartaDto(2,6);
+        }else if(this.rbAzul7.isSelected()){
+            return new CartaDto(2,7);
+        }else if(this.rbAzul8.isSelected()){
+            return new CartaDto(2,8);
+        }else if(this.rbAzul9.isSelected()){
+            return new CartaDto(2,9);
+        }else if(this.rbAzulBloqueio.isSelected()){
+            return new CartaDto(2,10);
+        }else if(this.rbAzulInverte.isSelected()){
+            return new CartaDto(2,11);
+        }else if(this.rbAzulMaisDois.isSelected()){
+            return new CartaDto(2,12);
+        }else if(this.rbVerde0.isSelected()){
+            return new CartaDto(3,0);
+        }else if(this.rbVerde1.isSelected()){
+            return new CartaDto(3,1);
+        }else if(this.rbVerde2.isSelected()){
+            return new CartaDto(3,2);
+        }else if(this.rbVerde3.isSelected()){
+            return new CartaDto(3,3);
+        }else if(this.rbVerde4.isSelected()){
+            return new CartaDto(3,4);
+        }else if(this.rbVerde5.isSelected()){
+            return new CartaDto(3,5);
+        }else if(this.rbVerde6.isSelected()){
+            return new CartaDto(3,6);
+        }else if(this.rbVerde7.isSelected()){
+            return new CartaDto(3,7);
+        }else if(this.rbVerde8.isSelected()){
+            return new CartaDto(3,8);
+        }else if(this.rbVerde9.isSelected()){
+            return new CartaDto(3,9);
+        }else if(this.rbVerdeBloqueio.isSelected()){
+            return new CartaDto(3,10);
+        }else if(this.rbVerdeInverte.isSelected()){
+            return new CartaDto(3,11);
+        }else if(this.rbVerdeMaisDois.isSelected()){
+            return new CartaDto(3,12);
+        }else if(this.rbVermelho0.isSelected()){
+            return new CartaDto(4,0);
+        }else if(this.rbVermelho1.isSelected()){
+            return new CartaDto(4,1);
+        }else if(this.rbVermelho2.isSelected()){
+            return new CartaDto(4,2);
+        }else if(this.rbVermelho3.isSelected()){
+            return new CartaDto(4,3);
+        }else if(this.rbVermelho4.isSelected()){
+            return new CartaDto(4,4);
+        }else if(this.rbVermelho5.isSelected()){
+            return new CartaDto(4,5);
+        }else if(this.rbVermelho6.isSelected()){
+            return new CartaDto(4,6);
+        }else if(this.rbVermelho7.isSelected()){
+            return new CartaDto(4,7);
+        }else if(this.rbVermelho8.isSelected()){
+            return new CartaDto(4,8);
+        }else if(this.rbVermelho9.isSelected()){
+            return new CartaDto(4,9);
+        }else if(this.rbVermelhoBloqueio.isSelected()){
+            return new CartaDto(4,10);
+        }else if(this.rbVermelhoInverte.isSelected()){
+            return new CartaDto(4,11);
+        }else if(this.rbVermelhoMaisDois.isSelected()){
+            return new CartaDto(4,12);
+        }
+        return new CartaDto(0,0);
+    }
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">

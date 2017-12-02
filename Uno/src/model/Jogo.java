@@ -50,6 +50,10 @@ public class Jogo {
             Jogo.turno = 1;
         }
     }
+    
+    public static int getTurno(){
+        return Jogo.turno;
+    }
 
     // Verifica se há alguma carta na mão do jogador que ele possa jogar no monte de descarte
     public static boolean verificaMao(Mao mao, Descarte descarte){
