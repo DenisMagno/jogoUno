@@ -8,9 +8,9 @@ public class Uno {
 
         Jogador j1 = new Jogador("Denis");
         Jogador j2 = new Jogador("Gabriel");
-        
+
         Compra monteCompra = new Compra();
-        
+
         Descarte pilhaDescarte = new Descarte();
 
         System.out.println("Quantidade na pilha de compras: "+ monteCompra.getListaCartas().size());
