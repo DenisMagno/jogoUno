@@ -8,6 +8,7 @@ public class MaisDois extends Carta{
 
     @Override
     public void jogar(){
-        
+        Jogo.pilhaDescarte.setCarta(this);
+        Jogo.compraMais(4);
     }
 }

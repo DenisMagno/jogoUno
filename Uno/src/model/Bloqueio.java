@@ -8,6 +8,7 @@ public class Bloqueio extends Carta{
 
     @Override
     public void jogar(){
-        
+        Jogo.pilhaDescarte.setCarta(this);
+        Jogo.alteraTurno();
     }
 }
