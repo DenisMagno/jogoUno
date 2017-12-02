@@ -1,12 +1,21 @@
 package view;
 
 import javax.swing.ButtonGroup;
+import javax.swing.JOptionPane;
+import model.Jogo;
 
 public class InicioView extends javax.swing.JFrame {
+    Jogo jogo;
 
     public InicioView() {
         initComponents();
-        
+
+        String nome1 = JOptionPane.showInputDialog(null, "Digite o nome do primeiro jogador: ");
+        String nome2 = JOptionPane.showInputDialog(null, "Digite o nome do segundo jogador: ");
+
+        this.jogo = new Jogo();
+        this.jogo.iniciaJogo(nome1, nome2);
+
         ButtonGroup grupo = new ButtonGroup();
         grupo.add(this.rbVerde0);
         grupo.add(this.rbVermelho0);
@@ -59,7 +68,14 @@ public class InicioView extends javax.swing.JFrame {
         grupo.add(this.rbAmareloMaisDois);   
         grupo.add(this.rbVermelhoMaisDois);   
         grupo.add(this.rbAzulMaisDois);   
-        grupo.add(this.rbVerdeMaisDois);   
+        grupo.add(this.rbVerdeMaisDois);
+
+        //Define nome dos jogadores na view
+        this.jlNomeJ1.setText(this.jogo.jogador1.getNome());
+        this.jlNomeJ2.setText(this.jogo.jogador2.getNome());
+        
+        //Desabilita radio button
+        this.rbVerde0.setEnabled(false);
     }
 
     @SuppressWarnings("unchecked")
