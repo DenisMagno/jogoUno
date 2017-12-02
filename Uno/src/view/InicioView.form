@@ -26,322 +26,64 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace max="32767" attributes="0"/>
-              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-              <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="241" max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
-              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
-          </Group>
           <Group type="102" attributes="0">
-              <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="jLabel6" alignment="1" min="-2" pref="21" max="-2" attributes="0"/>
-                                  <Group type="102" alignment="1" attributes="0">
-                                      <Group type="103" groupAlignment="1" attributes="0">
-                                          <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="rbVerde0" alignment="1" min="-2" max="-2" attributes="0"/>
-                                          <Component id="rbAmarelo0" alignment="1" min="-2" max="-2" attributes="0"/>
-                                          <Component id="rbAzul0" alignment="1" min="-2" max="-2" attributes="0"/>
-                                          <Component id="rbVermelho0" alignment="1" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="rbVerde1" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="rbAzul1" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="rbAmarelo1" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="rbVermelho1" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jLabel7" min="-2" pref="21" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="rbVerde2" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="rbAzul2" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="rbAmarelo2" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="rbVermelho2" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jLabel8" min="-2" pref="21" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="jRadioButton16" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="rbAzul3" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="rbAmarelo3" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="rbVermelho3" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jLabel9" min="-2" pref="21" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="rbVerde4" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="rbAzul4" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="rbAmarelo4" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="rbVermelho4" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jLabel10" min="-2" pref="21" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="rbVerde5" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="rbAzul5" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="rbAmarelo5" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="rbVermelho5" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jLabel11" min="-2" pref="21" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                      </Group>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="rbVerde6" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAzul6" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAmarelo6" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbVermelho6" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jLabel12" min="-2" pref="21" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="rbVerde7" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAzul7" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAmarelo7" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbVermelho7" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jLabel14" min="-2" pref="21" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="rbVerde8" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAzul8" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAmarelo8" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbVermelho8" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jLabel15" min="-2" pref="21" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="rbVerde9" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="rbAzul9" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="rbAmarelo9" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="rbVermelho9" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jLabel16" min="-2" pref="21" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="1" attributes="0">
-                                          <Component id="rbVermelhoBloqueio" min="-2" max="-2" attributes="0"/>
-                                          <Component id="rbVerdeBloqueio" min="-2" max="-2" attributes="0"/>
-                                          <Component id="rbAmareloBloqueio" alignment="1" min="-2" max="-2" attributes="0"/>
-                                          <Component id="rbAzulBloqueio" alignment="1" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel18" min="-2" pref="44" max="-2" attributes="0"/>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="1" attributes="0">
-                                          <Component id="rbVermelhoInverte" min="-2" max="-2" attributes="0"/>
-                                          <Component id="rbVerdeInverte" min="-2" max="-2" attributes="0"/>
-                                          <Component id="rbAmareloInverte" alignment="1" min="-2" max="-2" attributes="0"/>
-                                          <Component id="rbAzulInverte" alignment="1" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="rbVerdeMaisDois" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="rbAzulMaisDois" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="rbAmareloMaisDois" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="rbVermelhoMaisDois" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jLabel19" min="-2" pref="21" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <Group type="102" attributes="0">
-                              <Component id="jPanel4" max="32767" attributes="0"/>
-                              <EmptySpace min="-2" pref="241" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
+                      <Component id="jPanel7" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="205" max="-2" attributes="0"/>
-                      <Component id="jbJogar" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="175" max="-2" attributes="0"/>
+                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                      <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
               </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="338" max="-2" attributes="0"/>
+              <Component id="jbJogar" min="-2" pref="106" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
-              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
-                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jPanel2" alignment="0" min="-2" max="-2" attributes="0"/>
                   <Component id="jPanel1" alignment="0" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace max="32767" attributes="0"/>
-              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
                   <Component id="jPanel4" max="32767" attributes="0"/>
                   <Component id="jPanel3" max="32767" attributes="0"/>
               </Group>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                      <Component id="rbVermelho8" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="rbVermelho9" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="rbVermelho3" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="rbVermelho4" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="rbVermelho5" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="rbVermelho6" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="rbVermelho7" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="rbVermelhoMaisDois" alignment="0" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
-                              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="rbVerde0" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jRadioButton16" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbVerde4" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbVerde5" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbVerde6" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbVerde7" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbVerde8" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbVerde9" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbVerdeMaisDois" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
-                                          <Component id="rbVerde1" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <EmptySpace max="32767" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="rbVerdeBloqueio" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              <Component id="rbVerdeInverte" alignment="1" min="-2" max="-2" attributes="0"/>
-                                              <Component id="rbVerde2" alignment="1" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                      </Group>
-                                  </Group>
-                              </Group>
-                          </Group>
-                          <Component id="jLabel3" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="9" pref="9" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="rbVermelhoBloqueio" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="rbVermelhoInverte" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="rbVermelho0" min="-2" max="-2" attributes="0"/>
-                          <Component id="rbVermelho1" min="-2" max="-2" attributes="0"/>
-                          <Component id="rbVermelho2" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel5" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-              </Group>
-              <EmptySpace min="8" pref="8" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                      <Group type="102" alignment="1" attributes="0">
-                          <Component id="rbAmarelo1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="28" pref="28" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="rbAmarelo2" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbAmarelo3" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbAmarelo4" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbAmarelo5" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbAmarelo6" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbAmarelo7" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbAmarelo9" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbAmarelo8" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbAmareloInverte" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbAmareloMaisDois" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbAmareloBloqueio" alignment="0" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="rbAzul2" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbAzul3" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbAzul4" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbAzul5" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbAzul6" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbAzul7" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbAzul8" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbAzulInverte" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbAzulMaisDois" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbAzul9" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbAzulBloqueio" alignment="0" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbAmarelo0" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="rbAzul0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                  </Group>
-                  <Component id="rbAzul1" alignment="1" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="jbJogar" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -352,15 +94,9 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Alegreya Sans Light" size="36" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Jogo"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel13">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Alegreya Sans Light" size="36" style="1"/>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="2" name="D:\&#xc1;rea de Trabalho\imagens uno\oie_transparent.png"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Uno"/>
       </Properties>
     </Component>
     <Container class="javax.swing.JPanel" name="jPanel1">
@@ -385,7 +121,7 @@
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
               <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace pref="29" max="32767" attributes="0"/>
+                  <EmptySpace pref="39" max="32767" attributes="0"/>
                   <Component id="jlMsgVezJ1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
               </Group>
@@ -400,7 +136,7 @@
                       <Component id="jlNomeJ1" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jlMsgVezJ1" pref="33" max="32767" attributes="0"/>
+                  <Component id="jlMsgVezJ1" pref="41" max="32767" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -411,6 +147,9 @@
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Alegreya Sans Light" size="24" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="c8" id="orange" palette="1" red="ff" type="palette"/>
             </Property>
             <Property name="text" type="java.lang.String" value="mensagem"/>
           </Properties>
@@ -455,7 +194,7 @@
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
               <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace pref="36" max="32767" attributes="0"/>
+                  <EmptySpace pref="46" max="32767" attributes="0"/>
                   <Component id="jlMsgVezJ2" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
               </Group>
@@ -471,7 +210,7 @@
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="jlMsgVezJ2" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="19" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -498,6 +237,9 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Alegreya Sans Light" size="24" style="1"/>
             </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="c8" id="orange" palette="1" red="ff" type="palette"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="mensagem"/>
           </Properties>
         </Component>
@@ -505,249 +247,19 @@
     </Container>
     <Component class="javax.swing.JButton" name="jbJogar">
       <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Alegreya Sans Light" size="24" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Jogar"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVerde0">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVermelho0">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAmarelo0">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAzul0">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVermelho1">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAmarelo1">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAzul1">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVerde1">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVermelho2">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAmarelo2">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAzul2">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVerde2">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVermelho3">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAmarelo3">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAzul3">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="jRadioButton16">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVermelho4">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAmarelo4">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAzul4">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVerde4">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVermelho5">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAmarelo5">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAzul5">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVerde5">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVermelho6">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAmarelo6">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAzul6">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVerde6">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVermelho7">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAmarelo7">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAzul7">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVerde7">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVermelho8">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAmarelo8">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAzul8">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVerde8">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVermelho9">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAmarelo9">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAzul9">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVerde9">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVermelhoBloqueio">
-      <Properties>
-        <Property name="model" type="javax.swing.ButtonModel" editor="org.netbeans.modules.form.ComponentChooserEditor">
-          <ComponentRef name="default"/>
-        </Property>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAmareloBloqueio">
-      <Properties>
-        <Property name="model" type="javax.swing.ButtonModel" editor="org.netbeans.modules.form.ComponentChooserEditor">
-          <ComponentRef name="default"/>
-        </Property>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAzulBloqueio">
-      <Properties>
-        <Property name="model" type="javax.swing.ButtonModel" editor="org.netbeans.modules.form.ComponentChooserEditor">
-          <ComponentRef name="default"/>
-        </Property>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVerdeBloqueio">
-      <Properties>
-        <Property name="model" type="javax.swing.ButtonModel" editor="org.netbeans.modules.form.ComponentChooserEditor">
-          <ComponentRef name="default"/>
-        </Property>
-        <Property name="toolTipText" type="java.lang.String" value=""/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVermelhoInverte">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAzulInverte">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVerdeInverte">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAmareloInverte">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAmareloMaisDois">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVermelhoMaisDois">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbAzulMaisDois">
-    </Component>
-    <Component class="javax.swing.JRadioButton" name="rbVerdeMaisDois">
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel6">
-      <Properties>
-        <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="0"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel7">
-      <Properties>
-        <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="1"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel8">
-      <Properties>
-        <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="2"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel9">
-      <Properties>
-        <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="3"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel10">
-      <Properties>
-        <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="4"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel11">
-      <Properties>
-        <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="5"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel12">
-      <Properties>
-        <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="6"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel14">
-      <Properties>
-        <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="7"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel15">
-      <Properties>
-        <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="8"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel16">
-      <Properties>
-        <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="9"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel17">
-      <Properties>
-        <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="bloqueio"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel18">
-      <Properties>
-        <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="inverte"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel19">
-      <Properties>
-        <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="+2"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel3">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Alegreya Sans Light" size="15" style="0"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Verde"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel5">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Alegreya Sans Light" size="15" style="0"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Vermelho"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel20">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Alegreya Sans Light" size="15" style="0"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Amarelo"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel21">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Alegreya Sans Light" size="15" style="0"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Azul"/>
       </Properties>
     </Component>
     <Container class="javax.swing.JPanel" name="jPanel3">
       <Properties>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-            <TitledBorder title="Monte de Descarte"/>
+            <TitledBorder title="Monte de Descarte">
+              <Font PropertyName="font" name="Alegreya Sans Light" size="14" style="0"/>
+            </TitledBorder>
           </Border>
         </Property>
       </Properties>
@@ -755,11 +267,7 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jlMonteDescarte" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="32767" attributes="0"/>
-              </Group>
+              <Component id="jlMonteDescarte" min="-2" max="-2" attributes="0"/>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
@@ -787,7 +295,9 @@
       <Properties>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-            <TitledBorder title="Comprar"/>
+            <TitledBorder title="Comprar">
+              <Font PropertyName="font" name="Alegreya Sans Light" size="14" style="0"/>
+            </TitledBorder>
           </Border>
         </Property>
       </Properties>
@@ -796,18 +306,18 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
                   <Component id="jbComprar" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="46" max="32767" attributes="0"/>
+                  <EmptySpace pref="23" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
                   <Component id="jbComprar" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="48" max="32767" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -816,7 +326,7 @@
         <Component class="javax.swing.JButton" name="jbComprar">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/view/1red.png"/>
+              <Image iconType="2" name="D:\&#xc1;rea de Trabalho\imagens uno\compra.png"/>
             </Property>
           </Properties>
           <Events>
@@ -825,5 +335,676 @@
         </Component>
       </SubComponents>
     </Container>
+    <Container class="javax.swing.JPanel" name="jPanel7">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder justification="2" title="Cartas do jogador da vez">
+              <Font PropertyName="font" name="Alegreya Sans Light" size="14" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jPanel5" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jPanel6" max="32767" attributes="0"/>
+                      <Component id="jPanel5" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel6">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Cartas Coloridas">
+                  <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder/>
+                  </Border>
+                  <Font PropertyName="font" name="Alegreya Sans Light" size="14" style="0"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel6" alignment="1" min="-2" pref="21" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="rbAmarelo0" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="rbAzul0" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="rbVermelho0" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="rbVerde0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="rbVerde1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbAzul1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbAmarelo1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbVermelho1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabel7" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="rbVerde2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbAzul2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbAmarelo2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbVermelho2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabel8" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jRadioButton16" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbAzul3" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbAmarelo3" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbVermelho3" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabel9" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="rbVerde4" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbAzul4" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbAmarelo4" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbVermelho4" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabel10" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="rbVerde5" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbAzul5" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbAmarelo5" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbVermelho5" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabel11" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="rbVerde6" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbAzul6" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbAmarelo6" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbVermelho6" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabel12" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="rbVerde7" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbAzul7" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbAmarelo7" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbVermelho7" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabel14" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="rbVerde8" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbAzul8" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbAmarelo8" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbVermelho8" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabel15" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="rbVerde9" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbAzul9" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbAmarelo9" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbVermelho9" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabel16" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="rbVermelhoBloqueio" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rbVerdeBloqueio" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rbAmareloBloqueio" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rbAzulBloqueio" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel18" min="-2" pref="44" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="rbVermelhoInverte" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rbVerdeInverte" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rbAmareloInverte" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rbAzulInverte" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="rbVerdeMaisDois" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbAzulMaisDois" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbAmareloMaisDois" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbVermelhoMaisDois" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabel19" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                              <Component id="rbVermelho8" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="rbVermelho9" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="rbVermelho3" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="rbVermelho4" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="rbVermelho5" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="rbVermelho6" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="rbVermelho7" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="rbVermelhoMaisDois" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jRadioButton16" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="rbVerde4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="rbVerde5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="rbVerde6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="rbVerde7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="rbVerde8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="rbVerde9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="rbVerdeMaisDois" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                                  <Component id="rbVerde1" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="rbVerdeBloqueio" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="rbVerdeInverte" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="rbVerde2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="rbVerde0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="9" pref="9" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="rbVermelhoBloqueio" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rbVermelhoInverte" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rbVermelho0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rbVermelho1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rbVermelho2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel5" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="8" pref="8" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="rbAmarelo1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="28" pref="28" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="rbAmarelo2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbAmarelo3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbAmarelo4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbAmarelo5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbAmarelo6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbAmarelo7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbAmarelo9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbAmarelo8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbAmareloInverte" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbAmareloMaisDois" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbAmareloBloqueio" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="rbAzul2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbAzul3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbAzul4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbAzul5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbAzul6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbAzul7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbAzul8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbAzulInverte" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbAzulMaisDois" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbAzul9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbAzulBloqueio" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rbAmarelo0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="rbAzul0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Component id="rbAzul1" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JRadioButton" name="rbVerde4">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel20">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Alegreya Sans Light" size="15" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Amarelo"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAzul6">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAzulMaisDois">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel19">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="+2"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAzul0">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAzulInverte">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVermelho4">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAmarelo9">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel18">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="inverte"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAmarelo8">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAzul4">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAmarelo6">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel15">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="8"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVerde0">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                    </LineBorder>
+                  </Border>
+                </Property>
+                <Property name="contentAreaFilled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAmarelo7">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAmarelo2">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel11">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="5"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVerde1">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel9">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel10">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="4"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVermelho7">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAzul1">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVerdeBloqueio">
+              <Properties>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel7">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel12">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="6"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVermelho8">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel21">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Alegreya Sans Light" size="15" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Azul"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel17">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="bloqueio"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVermelho0">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAmarelo0">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVerde8">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Alegreya Sans Light" size="15" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Vermelho"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVerde9">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAzul5">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAzul2">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVermelho6">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVermelhoMaisDois">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAzul3">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVerde2">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel14">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="7"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVermelhoInverte">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAzul7">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVermelho9">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVerde5">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVermelho2">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAmareloInverte">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel16">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="9"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVermelho1">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVerdeMaisDois">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAzul9">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVermelho5">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAmareloBloqueio">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAmareloMaisDois">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAmarelo1">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVerde7">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAmarelo3">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAmarelo4">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVermelhoBloqueio">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAzulBloqueio">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="jRadioButton16">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVerdeInverte">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVerde6">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAmarelo5">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbAzul8">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Alegreya Sans Light" size="15" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Verde"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="2"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbVermelho3">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel5">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Cartas Coringa">
+                  <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder/>
+                  </Border>
+                  <Font PropertyName="font" name="Alegreya Sans Light" size="14" style="0"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="28" max="32767" attributes="0"/>
+                              <Component id="rbCoringaQuatro1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="rbCoringaQuatro2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="rbCoringaQuatro3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="rbCoringaQuatro4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="rbCoringa1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="rbCoringa2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="rbCoringa3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="rbCoringa4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="rbCoringa4" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbCoringa3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbCoringa2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbCoringa1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="rbCoringaQuatro4" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbCoringaQuatro3" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbCoringaQuatro2" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbCoringaQuatro1" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel22" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel13">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Alegreya Sans Light" size="15" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Troca Cor"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbCoringa1">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbCoringa2">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbCoringa3">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbCoringa4">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel22">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Alegreya Sans Light" size="15" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Troca Cor +4"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbCoringaQuatro1">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbCoringaQuatro2">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbCoringaQuatro3">
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rbCoringaQuatro4">
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
   </SubComponents>
 </Form>
