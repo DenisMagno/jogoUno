@@ -27,16 +27,18 @@ public class Jogo {
         
         //Coloca uma carta do monte de compra na pilha de descarte para iniciar o jogo. A mesma sendo menor ou igual o número 9;
         int i = 0;
-        while(i == 0){
+        while(i < this.monteCompra.getListaCartas().size()){
             if(this.monteCompra.leCarta(i).getNumero() <= 9){
                 this.pilhaDescarte = new Descarte();
                 this.pilhaDescarte.setCarta(this.monteCompra.getCarta(i));
                 
-                i++;
+                break;
             }
+            
+            i++;
         }
     }
-   
+
     public static void compraMais(int qtde){
         Jogo.qtdeCompra = qtde;
     }
@@ -54,9 +56,9 @@ public class Jogo {
         int i;
 
         for(i = 0; i < mao.getListaCartas().size(); i++){
-            if(mao.leCarta(i).getNumero() == descarte.getCarta().getNumero()){
+            if(mao.leCarta(i).getNumero() == descarte.leCarta().getNumero()){
                 return true;
-            }else if(mao.leCarta(i).getCor() == descarte.getCarta().getCor()){
+            }else if(mao.leCarta(i).getCor() == descarte.leCarta().getCor()){
                 return true;
             }
         }

@@ -13,7 +13,7 @@ public class Descarte extends Baralho{
     }
 
     //Retorna uma CÓPIA da ultima carta da pilha de descarte para comparação
-    public Carta getCarta() {
+    public Carta leCarta() {
         return cartas.get(cartas.size() - 1);
     }
 
