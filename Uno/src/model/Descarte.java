@@ -9,11 +9,11 @@ public class Descarte extends Baralho{
 
     public Descarte(){
         this.cartas = new ArrayList<Carta>();
-        this.quantidade = 0;
+        this.quantidade = 1;
     }
 
     //Retorna uma CÓPIA da ultima carta da pilha de descarte para comparação
-    public Carta getCarta() {
+    public Carta leCarta() {
         return cartas.get(cartas.size() - 1);
     }
 

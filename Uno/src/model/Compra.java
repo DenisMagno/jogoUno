@@ -21,6 +21,15 @@ public class Compra extends Baralho{
 
         return carta;
     }
+    
+    //Literalmente TIRA uma carta do monte de compras
+    public Carta getCarta(int i) {
+        Carta carta = cartas.get(i);
+
+        cartas.remove(i);
+
+        return carta;
+    }
 
     public List getListaCartas() {
         return cartas;
