@@ -434,7 +434,7 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="jRadioButton16" alignment="0" max="32767" attributes="0"/>
+                          <Component id="rbVerde3" alignment="0" max="32767" attributes="0"/>
                           <Component id="rbAzul3" alignment="0" max="32767" attributes="0"/>
                           <Component id="rbAmarelo3" alignment="0" max="32767" attributes="0"/>
                           <Component id="rbVermelho3" alignment="0" max="32767" attributes="0"/>
@@ -547,7 +547,7 @@
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="jRadioButton16" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="rbVerde3" alignment="0" min="-2" max="-2" attributes="0"/>
                                               <Component id="rbVerde4" alignment="0" min="-2" max="-2" attributes="0"/>
                                               <Component id="rbVerde5" alignment="0" min="-2" max="-2" attributes="0"/>
                                               <Component id="rbVerde6" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -868,7 +868,7 @@
             </Component>
             <Component class="javax.swing.JRadioButton" name="rbAzulBloqueio">
             </Component>
-            <Component class="javax.swing.JRadioButton" name="jRadioButton16">
+            <Component class="javax.swing.JRadioButton" name="rbVerde3">
             </Component>
             <Component class="javax.swing.JRadioButton" name="rbVerdeInverte">
             </Component>

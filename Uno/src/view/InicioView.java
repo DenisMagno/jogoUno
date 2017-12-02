@@ -32,7 +32,7 @@ public class InicioView extends javax.swing.JFrame {
         grupo.add(this.rbVermelho3);
         grupo.add(this.rbAmarelo3);
         grupo.add(this.rbAzul3);
-        grupo.add(this.jRadioButton16);
+        grupo.add(this.rbVerde3);
         grupo.add(this.rbVermelho4);
         grupo.add(this.rbAmarelo4);
         grupo.add(this.rbAzul4);
@@ -159,7 +159,7 @@ public class InicioView extends javax.swing.JFrame {
         rbAmarelo4 = new javax.swing.JRadioButton();
         rbVermelhoBloqueio = new javax.swing.JRadioButton();
         rbAzulBloqueio = new javax.swing.JRadioButton();
-        jRadioButton16 = new javax.swing.JRadioButton();
+        rbVerde3 = new javax.swing.JRadioButton();
         rbVerdeInverte = new javax.swing.JRadioButton();
         rbVerde6 = new javax.swing.JRadioButton();
         rbAmarelo5 = new javax.swing.JRadioButton();
@@ -413,7 +413,7 @@ public class InicioView extends javax.swing.JFrame {
                     .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jRadioButton16, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(rbVerde3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(rbAzul3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(rbAmarelo3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(rbVermelho3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -509,7 +509,7 @@ public class InicioView extends javax.swing.JFrame {
                                 .addGroup(jPanel6Layout.createSequentialGroup()
                                     .addGap(16, 16, 16)
                                     .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(jRadioButton16)
+                                        .addComponent(rbVerde3)
                                         .addComponent(rbVerde4)
                                         .addComponent(rbVerde5)
                                         .addComponent(rbVerde6)
@@ -800,7 +800,6 @@ public class InicioView extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
-    private javax.swing.JRadioButton jRadioButton16;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JButton jbComprar;
     private javax.swing.JButton jbJogar;
@@ -846,6 +845,7 @@ public class InicioView extends javax.swing.JFrame {
     private javax.swing.JRadioButton rbVerde0;
     private javax.swing.JRadioButton rbVerde1;
     private javax.swing.JRadioButton rbVerde2;
+    private javax.swing.JRadioButton rbVerde3;
     private javax.swing.JRadioButton rbVerde4;
     private javax.swing.JRadioButton rbVerde5;
     private javax.swing.JRadioButton rbVerde6;
