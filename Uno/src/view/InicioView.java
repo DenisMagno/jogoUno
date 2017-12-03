@@ -752,7 +752,6 @@ public class InicioView extends javax.swing.JFrame {
     private void jbJogarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbJogarActionPerformed
         Carta carta = this.verificaRadioButton();
         if(jogo.verificaMao(carta.getCor(), carta.getNumero())){
-            carta.jogar();
             Jogo.alteraTurno();
             atualizaMensagemTurno();
             montaRadioButtons();
