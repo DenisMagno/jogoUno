@@ -356,32 +356,87 @@ public class InicioView extends javax.swing.JFrame {
 
         jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Cartas Coloridas", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Alegreya Sans Light", 0, 14))); // NOI18N
 
+        rbVerde4.setBackground(java.awt.Color.green);
+        rbVerde4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVerde4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
         jLabel20.setFont(new java.awt.Font("Alegreya Sans Light", 0, 15)); // NOI18N
         jLabel20.setText("Amarelo");
+
+        rbAzul6.setBackground(java.awt.Color.blue);
+        rbAzul6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAzul6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         jLabel6.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setText("0");
 
+        rbAzulMaisDois.setBackground(java.awt.Color.blue);
+        rbAzulMaisDois.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAzulMaisDois.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
         jLabel19.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel19.setText("+2");
+
+        rbAzul0.setBackground(java.awt.Color.blue);
+        rbAzul0.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAzul0.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbAzulInverte.setBackground(java.awt.Color.blue);
+        rbAzulInverte.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAzulInverte.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbVermelho4.setBackground(java.awt.Color.red);
+        rbVermelho4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVermelho4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbAmarelo9.setBackground(java.awt.Color.yellow);
+        rbAmarelo9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAmarelo9.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         jLabel18.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel18.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/imagem/inverte.png"))); // NOI18N
 
+        rbAmarelo8.setBackground(java.awt.Color.yellow);
+        rbAmarelo8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAmarelo8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbAzul4.setBackground(java.awt.Color.blue);
+        rbAzul4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAzul4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbAmarelo6.setBackground(java.awt.Color.yellow);
+        rbAmarelo6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAmarelo6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
         jLabel15.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel15.setText("8");
 
+        rbVerde0.setBackground(java.awt.Color.green);
         rbVerde0.setForeground(new java.awt.Color(255, 255, 255));
         rbVerde0.setBorder(javax.swing.BorderFactory.createLineBorder(java.awt.Color.white));
         rbVerde0.setContentAreaFilled(false);
+        rbVerde0.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVerde0.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbAmarelo7.setBackground(java.awt.Color.yellow);
+        rbAmarelo7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAmarelo7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbAmarelo2.setBackground(java.awt.Color.yellow);
+        rbAmarelo2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAmarelo2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         jLabel11.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel11.setText("5");
+
+        rbVerde1.setBackground(java.awt.Color.green);
+        rbVerde1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVerde1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         jLabel9.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -391,7 +446,18 @@ public class InicioView extends javax.swing.JFrame {
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel10.setText("4");
 
+        rbVermelho7.setBackground(java.awt.Color.red);
+        rbVermelho7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVermelho7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbAzul1.setBackground(java.awt.Color.blue);
+        rbAzul1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAzul1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbVerdeBloqueio.setBackground(java.awt.Color.green);
         rbVerdeBloqueio.setToolTipText("");
+        rbVerdeBloqueio.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVerdeBloqueio.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         jLabel7.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -401,6 +467,10 @@ public class InicioView extends javax.swing.JFrame {
         jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel12.setText("6");
 
+        rbVermelho8.setBackground(java.awt.Color.red);
+        rbVermelho8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVermelho8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
         jLabel21.setFont(new java.awt.Font("Alegreya Sans Light", 0, 15)); // NOI18N
         jLabel21.setText("Azul");
 
@@ -408,16 +478,148 @@ public class InicioView extends javax.swing.JFrame {
         jLabel17.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/imagem/bloqueia.png"))); // NOI18N
 
+        rbVermelho0.setBackground(java.awt.Color.red);
+        rbVermelho0.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVermelho0.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbAmarelo0.setBackground(java.awt.Color.yellow);
+        rbAmarelo0.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAmarelo0.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbVerde8.setBackground(java.awt.Color.green);
+        rbVerde8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVerde8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
         jLabel5.setFont(new java.awt.Font("Alegreya Sans Light", 0, 15)); // NOI18N
         jLabel5.setText("Vermelho");
+
+        rbVerde9.setBackground(java.awt.Color.green);
+        rbVerde9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVerde9.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbAzul5.setBackground(java.awt.Color.blue);
+        rbAzul5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAzul5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbAzul2.setBackground(java.awt.Color.blue);
+        rbAzul2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAzul2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbVermelho6.setBackground(java.awt.Color.red);
+        rbVermelho6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVermelho6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbVermelhoMaisDois.setBackground(java.awt.Color.red);
+        rbVermelhoMaisDois.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVermelhoMaisDois.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbAzul3.setBackground(java.awt.Color.blue);
+        rbAzul3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAzul3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbVerde2.setBackground(java.awt.Color.green);
+        rbVerde2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVerde2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         jLabel14.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel14.setText("7");
 
+        rbVermelhoInverte.setBackground(java.awt.Color.red);
+        rbVermelhoInverte.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVermelhoInverte.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbAzul7.setBackground(java.awt.Color.blue);
+        rbAzul7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAzul7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbVermelho9.setBackground(java.awt.Color.red);
+        rbVermelho9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVermelho9.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbVerde5.setBackground(java.awt.Color.green);
+        rbVerde5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVerde5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbVermelho2.setBackground(java.awt.Color.red);
+        rbVermelho2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVermelho2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbAmareloInverte.setBackground(java.awt.Color.yellow);
+        rbAmareloInverte.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAmareloInverte.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
         jLabel16.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel16.setText("9");
+
+        rbVermelho1.setBackground(java.awt.Color.red);
+        rbVermelho1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVermelho1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbVerdeMaisDois.setBackground(java.awt.Color.green);
+        rbVerdeMaisDois.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVerdeMaisDois.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbAzul9.setBackground(java.awt.Color.blue);
+        rbAzul9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAzul9.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbVermelho5.setBackground(java.awt.Color.red);
+        rbVermelho5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVermelho5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbAmareloBloqueio.setBackground(java.awt.Color.yellow);
+        rbAmareloBloqueio.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAmareloBloqueio.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbAmareloMaisDois.setBackground(java.awt.Color.yellow);
+        rbAmareloMaisDois.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAmareloMaisDois.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbAmarelo1.setBackground(java.awt.Color.yellow);
+        rbAmarelo1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAmarelo1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbVerde7.setBackground(java.awt.Color.green);
+        rbVerde7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVerde7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbAmarelo3.setBackground(java.awt.Color.yellow);
+        rbAmarelo3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAmarelo3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbAmarelo4.setBackground(java.awt.Color.yellow);
+        rbAmarelo4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAmarelo4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbVermelhoBloqueio.setBackground(java.awt.Color.red);
+        rbVermelhoBloqueio.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVermelhoBloqueio.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbAzulBloqueio.setBackground(java.awt.Color.blue);
+        rbAzulBloqueio.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAzulBloqueio.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbVerde3.setBackground(java.awt.Color.green);
+        rbVerde3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVerde3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbVerdeInverte.setBackground(java.awt.Color.green);
+        rbVerdeInverte.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVerdeInverte.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbVerde6.setBackground(java.awt.Color.green);
+        rbVerde6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVerde6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbAmarelo5.setBackground(java.awt.Color.yellow);
+        rbAmarelo5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAmarelo5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        rbAzul8.setBackground(java.awt.Color.blue);
+        rbAzul8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbAzul8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         jLabel3.setFont(new java.awt.Font("Alegreya Sans Light", 0, 15)); // NOI18N
         jLabel3.setText("Verde");
@@ -425,6 +627,10 @@ public class InicioView extends javax.swing.JFrame {
         jLabel8.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel8.setText("2");
+
+        rbVermelho3.setBackground(java.awt.Color.red);
+        rbVermelho3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        rbVermelho3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -683,7 +889,7 @@ public class InicioView extends javax.swing.JFrame {
         jPanel7Layout.setHorizontalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel7Layout.createSequentialGroup()
-                .addContainerGap(61, Short.MAX_VALUE)
+                .addContainerGap(24, Short.MAX_VALUE)
                 .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -726,7 +932,7 @@ public class InicioView extends javax.swing.JFrame {
                 .addComponent(jbJogar, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(334, 334, 334))
             .addGroup(layout.createSequentialGroup()
-                .addGap(31, 31, 31)
+                .addGap(68, 68, 68)
                 .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
