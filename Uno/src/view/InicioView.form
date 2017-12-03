@@ -27,39 +27,39 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
-              <Group type="103" groupAlignment="1" attributes="0">
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jPanel7" max="32767" attributes="0"/>
+                      <Component id="jPanel1" min="-2" pref="184" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="175" max="-2" attributes="0"/>
                       <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
-                      <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
-              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
-              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
-              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel2" min="-2" pref="179" max="-2" attributes="0"/>
+                  <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+              </Group>
               <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
           </Group>
           <Group type="102" attributes="0">
-              <EmptySpace min="-2" pref="338" max="-2" attributes="0"/>
-              <Component id="jbJogar" min="-2" pref="106" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jSeparator1" max="32767" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jbJogar" min="-2" pref="106" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="334" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="48" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -68,22 +68,22 @@
           <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                  <Component id="jPanel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
                   <Component id="jPanel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jPanel2" alignment="0" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="jPanel4" max="32767" attributes="0"/>
-                  <Component id="jPanel3" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="2" attributes="0">
+                  <Component id="jPanel3" alignment="2" max="32767" attributes="0"/>
+                  <Component id="jPanel4" alignment="2" max="32767" attributes="0"/>
               </Group>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace pref="15" max="32767" attributes="0"/>
               <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="jbJogar" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -108,6 +108,12 @@
             </TitledBorder>
           </Border>
         </Property>
+        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[190, 120]"/>
+        </Property>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[190, 120]"/>
+        </Property>
       </Properties>
 
       <Layout>
@@ -115,15 +121,15 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jlNomeJ1" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jlMsgVezJ1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jlNomeJ1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
                   <EmptySpace max="32767" attributes="0"/>
-              </Group>
-              <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace pref="39" max="32767" attributes="0"/>
-                  <Component id="jlMsgVezJ1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -136,7 +142,7 @@
                       <Component id="jlNomeJ1" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jlMsgVezJ1" pref="41" max="32767" attributes="0"/>
+                  <Component id="jlMsgVezJ1" max="32767" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -181,36 +187,41 @@
             </TitledBorder>
           </Border>
         </Property>
+        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[190, 120]"/>
+        </Property>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[190, 120]"/>
+        </Property>
       </Properties>
 
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
+              <Group type="102" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="jlNomeJ2" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="32767" attributes="0"/>
-              </Group>
-              <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace pref="46" max="32767" attributes="0"/>
-                  <Component id="jlMsgVezJ2" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jlMsgVezJ2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jlNomeJ2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jlNomeJ2" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                   <Component id="jlMsgVezJ2" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="19" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -270,13 +281,17 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Component id="jlMonteDescarte" min="-2" max="-2" attributes="0"/>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jlMonteDescarte" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
                   <Component id="jlMonteDescarte" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
@@ -289,7 +304,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Alegreya Sans Light" size="24" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Vermelho Bloqueio"/>
+            <Property name="text" type="java.lang.String" value="Coringa / Compra + 4"/>
           </Properties>
         </Component>
       </SubComponents>
@@ -320,7 +335,7 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jbComprar" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="22" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -353,23 +368,22 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace pref="61" max="32767" attributes="0"/>
                   <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="jPanel5" max="32767" attributes="0"/>
-                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                  <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                      <Component id="jPanel6" max="32767" attributes="0"/>
-                      <Component id="jPanel5" max="32767" attributes="0"/>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
+                      <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -395,137 +409,116 @@
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="jLabel6" alignment="1" min="-2" pref="21" max="-2" attributes="0"/>
-                          <Group type="102" alignment="1" attributes="0">
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="rbAmarelo0" alignment="1" min="-2" max="-2" attributes="0"/>
-                                          <Component id="rbAzul0" alignment="1" min="-2" max="-2" attributes="0"/>
-                                          <Component id="rbVermelho0" alignment="1" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                                  <Group type="102" alignment="1" attributes="0">
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="rbVerde0" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                          </Group>
+                          <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="rbVerde1" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAzul1" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAmarelo1" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbVermelho1" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jLabel7" min="-2" pref="21" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="rbVerde0" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                          <Component id="rbVermelho0" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                          <Component id="rbAmarelo0" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                          <Component id="rbAzul0" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                          <Component id="jLabel6" linkSize="3" alignment="2" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="rbVerde2" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAzul2" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAmarelo2" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbVermelho2" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jLabel8" min="-2" pref="21" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="rbVerde3" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAzul3" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAmarelo3" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbVermelho3" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jLabel9" min="-2" pref="21" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="rbVerde4" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAzul4" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAmarelo4" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbVermelho4" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jLabel10" min="-2" pref="21" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="rbVerde5" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAzul5" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAmarelo5" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbVermelho5" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jLabel11" min="-2" pref="21" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="rbVerde6" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAzul6" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAmarelo6" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbVermelho6" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jLabel12" min="-2" pref="21" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="rbVerde7" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAzul7" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAmarelo7" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbVermelho7" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jLabel14" min="-2" pref="21" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="rbVerde8" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAzul8" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAmarelo8" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbVermelho8" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jLabel15" min="-2" pref="21" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="rbVerde9" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAzul9" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAmarelo9" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbVermelho9" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jLabel16" min="-2" pref="21" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="rbVermelhoBloqueio" min="-2" max="-2" attributes="0"/>
-                                  <Component id="rbVerdeBloqueio" min="-2" max="-2" attributes="0"/>
-                                  <Component id="rbAmareloBloqueio" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="rbAzulBloqueio" alignment="1" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
+                          <Component id="rbVermelho1" linkSize="3" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAmarelo1" linkSize="3" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAzul1" linkSize="3" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel7" linkSize="3" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVerde1" linkSize="3" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel18" min="-2" pref="44" max="-2" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="rbVermelhoInverte" min="-2" max="-2" attributes="0"/>
-                                  <Component id="rbVerdeInverte" min="-2" max="-2" attributes="0"/>
-                                  <Component id="rbAmareloInverte" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="rbAzulInverte" alignment="1" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="rbVerdeMaisDois" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAzulMaisDois" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbAmareloMaisDois" alignment="0" max="32767" attributes="0"/>
-                          <Component id="rbVermelhoMaisDois" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jLabel19" min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="rbVerde2" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="rbAzul2" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="rbAmarelo2" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="rbVermelho2" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="jLabel8" linkSize="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="rbVerde3" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="rbAzul3" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="rbAmarelo3" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="rbVermelho3" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="jLabel9" linkSize="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="rbVerde4" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="rbAzul4" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="rbAmarelo4" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="rbVermelho4" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="jLabel10" linkSize="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="rbVerde5" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="rbAzul5" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="rbAmarelo5" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="rbVermelho5" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="jLabel11" linkSize="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="rbVerde6" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="rbAzul6" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="rbAmarelo6" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="rbVermelho6" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="jLabel12" linkSize="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="rbVerde7" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="rbAzul7" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="rbAmarelo7" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="rbVermelho7" linkSize="3" alignment="0" max="-2" attributes="0"/>
+                          <Component id="jLabel14" linkSize="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="jLabel15" linkSize="3" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVermelho8" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                          <Component id="rbAmarelo8" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                          <Component id="rbAzul8" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                          <Component id="rbVerde8" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="jLabel16" linkSize="3" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVermelho9" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                          <Component id="rbAmarelo9" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                          <Component id="rbAzul9" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                          <Component id="rbVerde9" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="jLabel17" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                          <Component id="rbVermelhoBloqueio" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                          <Component id="rbAmareloBloqueio" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                          <Component id="rbAzulBloqueio" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                          <Component id="rbVerdeBloqueio" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="jLabel18" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                          <Component id="rbVermelhoInverte" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                          <Component id="rbAzulInverte" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                          <Component id="rbVerdeInverte" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                          <Component id="rbAmareloInverte" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="jLabel19" linkSize="3" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAmareloMaisDois" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                          <Component id="rbVermelhoMaisDois" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                          <Component id="rbAzulMaisDois" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                          <Component id="rbVerdeMaisDois" linkSize="3" alignment="2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="26" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -533,133 +526,88 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                              <Component id="rbVermelho8" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbVermelho9" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbVermelho3" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbVermelho4" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbVermelho5" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbVermelho6" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbVermelho7" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="rbVermelhoMaisDois" alignment="0" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="1" attributes="0">
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="rbVerde3" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="rbVerde4" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="rbVerde5" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="rbVerde6" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="rbVerde7" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="rbVerde8" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="rbVerde9" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="rbVerdeMaisDois" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                      </Group>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Group type="102" alignment="0" attributes="0">
-                                                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
-                                                  <Component id="rbVerde1" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                              <Group type="102" alignment="1" attributes="0">
-                                                  <EmptySpace max="32767" attributes="0"/>
-                                                  <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Component id="rbVerdeBloqueio" alignment="1" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="rbVerdeInverte" alignment="1" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="rbVerde2" alignment="1" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                              </Group>
-                                          </Group>
-                                      </Group>
-                                  </Group>
-                                  <Group type="102" alignment="1" attributes="0">
-                                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="rbVerde0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                              </Group>
-                              <EmptySpace min="9" pref="9" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="rbVermelhoBloqueio" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="rbVermelhoInverte" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="rbVermelho0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="rbVermelho1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="rbVermelho2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel5" alignment="1" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="jLabel9" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel10" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel11" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel12" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel14" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel15" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel16" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel17" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel18" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel19" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel6" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel7" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel8" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="rbVerde3" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVerde4" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVerde5" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVerde6" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVerde7" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVerde8" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVerde9" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVerdeBloqueio" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVerde0" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVerdeInverte" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVerde1" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVerdeMaisDois" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVerde2" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="9" pref="9" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="rbVermelho4" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVermelho5" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVermelho6" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVermelho7" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVermelho8" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVermelho9" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVermelhoBloqueio" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVermelhoInverte" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVermelho0" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVermelho1" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVermelhoMaisDois" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVermelho2" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbVermelho3" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="8" pref="8" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="rbAmarelo1" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="28" pref="28" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="rbAmarelo2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbAmarelo3" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbAmarelo4" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbAmarelo5" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbAmarelo6" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbAmarelo7" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbAmarelo9" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbAmarelo8" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbAmareloInverte" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbAmareloMaisDois" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbAmareloBloqueio" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="32767" attributes="0"/>
-                                  <Group type="103" groupAlignment="1" attributes="0">
-                                      <Component id="rbAzul2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbAzul3" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbAzul4" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbAzul5" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbAzul6" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbAzul7" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbAzul8" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbAzulInverte" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbAzulMaisDois" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbAzul9" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbAzulBloqueio" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Group type="103" groupAlignment="1" attributes="0">
-                                      <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
-                                      <Component id="rbAmarelo0" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="1" attributes="0">
-                                      <Component id="rbAzul0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                          </Group>
-                          <Component id="rbAzul1" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="rbAmarelo4" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAmarelo5" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAmarelo6" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAmarelo7" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAmarelo8" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel20" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAmarelo9" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAmareloBloqueio" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAmarelo0" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAmareloInverte" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAmareloMaisDois" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAmarelo1" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAmarelo2" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAmarelo3" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="7" pref="6" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="rbAzul4" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAzul5" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAzul6" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAzul7" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAzul8" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel21" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAzul9" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAzulBloqueio" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAzul0" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAzulInverte" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAzulMaisDois" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAzul1" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAzul2" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbAzul3" linkSize="2" alignment="2" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -681,6 +629,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel6">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial" size="12" style="1"/>
+                </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
@@ -689,6 +640,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel19">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial" size="12" style="1"/>
+                </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="+2"/>
               </Properties>
@@ -703,8 +657,13 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel18">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial" size="12" style="1"/>
+                </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
-                <Property name="text" type="java.lang.String" value="inverte"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/view/imagem/inverte.png"/>
+                </Property>
               </Properties>
             </Component>
             <Component class="javax.swing.JRadioButton" name="rbAmarelo8">
@@ -715,6 +674,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel15">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial" size="12" style="1"/>
+                </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="8"/>
               </Properties>
@@ -740,6 +702,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel11">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial" size="12" style="1"/>
+                </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="5"/>
               </Properties>
@@ -748,12 +713,18 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel9">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial" size="12" style="1"/>
+                </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="3"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel10">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial" size="12" style="1"/>
+                </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="4"/>
               </Properties>
@@ -769,12 +740,18 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel7">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial" size="12" style="1"/>
+                </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="1"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel12">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial" size="12" style="1"/>
+                </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="6"/>
               </Properties>
@@ -791,8 +768,13 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel17">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial" size="12" style="1"/>
+                </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
-                <Property name="text" type="java.lang.String" value="bloqueio"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/view/imagem/bloqueia.png"/>
+                </Property>
               </Properties>
             </Component>
             <Component class="javax.swing.JRadioButton" name="rbVermelho0">
@@ -825,6 +807,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel14">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial" size="12" style="1"/>
+                </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="7"/>
               </Properties>
@@ -843,6 +828,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel16">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial" size="12" style="1"/>
+                </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="9"/>
               </Properties>
@@ -891,6 +879,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel8">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Arial" size="12" style="1"/>
+                </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="2"/>
               </Properties>
@@ -916,12 +907,12 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
                               <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="28" max="32767" attributes="0"/>
+                              <EmptySpace pref="9" max="32767" attributes="0"/>
                               <Component id="rbCoringaQuatro1" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="rbCoringaQuatro2" min="-2" max="-2" attributes="0"/>
@@ -930,9 +921,10 @@
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="rbCoringaQuatro4" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="102" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="32767" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="rbCoringa1" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="rbCoringa2" min="-2" max="-2" attributes="0"/>
@@ -942,30 +934,30 @@
                               <Component id="rbCoringa4" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="rbCoringa4" min="-2" max="-2" attributes="0"/>
-                          <Component id="rbCoringa3" min="-2" max="-2" attributes="0"/>
-                          <Component id="rbCoringa2" min="-2" max="-2" attributes="0"/>
-                          <Component id="rbCoringa1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="jLabel13" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbCoringa1" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbCoringa2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbCoringa3" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbCoringa4" alignment="2" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="rbCoringaQuatro4" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="rbCoringaQuatro3" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="rbCoringaQuatro2" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="rbCoringaQuatro1" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel22" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Component id="rbCoringaQuatro2" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbCoringaQuatro3" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbCoringaQuatro4" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel22" alignment="2" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbCoringaQuatro1" alignment="2" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace pref="49" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
