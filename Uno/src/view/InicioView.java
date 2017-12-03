@@ -73,6 +73,14 @@ public class InicioView extends javax.swing.JFrame {
         grupo.add(this.rbVermelhoMaisDois);   
         grupo.add(this.rbAzulMaisDois);   
         grupo.add(this.rbVerdeMaisDois);
+        grupo.add(this.rbCoringa1);
+        grupo.add(this.rbCoringa2);
+        grupo.add(this.rbCoringa3);
+        grupo.add(this.rbCoringa4);
+        grupo.add(this.rbCoringaQuatro1);
+        grupo.add(this.rbCoringaQuatro2);
+        grupo.add(this.rbCoringaQuatro3);
+        grupo.add(this.rbCoringaQuatro4);
 
         //Define nome dos jogadores na view
         this.jlNomeJ1.setText(this.jogo.jogador1.getNome());
@@ -269,6 +277,11 @@ public class InicioView extends javax.swing.JFrame {
 
         jbJogar.setFont(new java.awt.Font("Alegreya Sans Light", 1, 24)); // NOI18N
         jbJogar.setText("Jogar");
+        jbJogar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jbJogarActionPerformed(evt);
+            }
+        });
 
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Monte de Descarte", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Alegreya Sans Light", 0, 14))); // NOI18N
 
@@ -738,8 +751,13 @@ public class InicioView extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jbComprarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbComprarActionPerformed
-        // TODO add your handling code here:
+
     }//GEN-LAST:event_jbComprarActionPerformed
+
+    private void jbJogarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbJogarActionPerformed
+
+    }//GEN-LAST:event_jbJogarActionPerformed
+   
     private void montaRadioButtons(){
         //Desabilita todos os rádio buttons
         Enumeration<AbstractButton> enumeration = grupo.getElements();
@@ -979,6 +997,17 @@ public class InicioView extends javax.swing.JFrame {
                         default:
                             break;
                     }
+                }else{
+                    switch (this.jogo.jogador1.getMao().leCarta(i).getNumero()) {
+                        case 13:
+                            this.rbCoringa1.setEnabled(true);
+                            this.rbCoringa1.setSelected(true);
+                            break;
+                        case 14:
+                            this.rbCoringaQuatro1.setEnabled(true);
+                            this.rbCoringaQuatro1.setSelected(true);
+                            break;
+                    }
                 }
                 i++;
             }
@@ -1212,6 +1241,17 @@ public class InicioView extends javax.swing.JFrame {
                         default:
                             break;
                     }
+                }else{
+                    switch (this.jogo.jogador2.getMao().leCarta(i).getNumero()) {
+                        case 13:
+                            this.rbCoringa1.setEnabled(true);
+                            this.rbCoringa1.setSelected(true);
+                            break;
+                        case 14:
+                            this.rbCoringaQuatro1.setEnabled(true);
+                            this.rbCoringaQuatro1.setSelected(true);
+                            break;
+                   }
                 }
                 i++;
             }
@@ -1324,7 +1364,24 @@ public class InicioView extends javax.swing.JFrame {
             return new CartaDto(4,11);
         }else if(this.rbVermelhoMaisDois.isSelected()){
             return new CartaDto(4,12);
+        }else if(this.rbCoringa1.isSelected()){
+            return new CartaDto(5,13);
+        }else if(this.rbCoringa2.isSelected()){
+            return new CartaDto(5,13);
+        }else if(this.rbCoringa3.isSelected()){
+            return new CartaDto(5,13);
+        }else if(this.rbCoringa4.isSelected()){
+            return new CartaDto(5,13);
+        }else if(this.rbCoringaQuatro1.isSelected()){
+            return new CartaDto(5,14);
+        }else if(this.rbCoringaQuatro2.isSelected()){
+            return new CartaDto(5,14);
+        }else if(this.rbCoringaQuatro3.isSelected()){
+            return new CartaDto(5,14);
+        }else if(this.rbCoringaQuatro4.isSelected()){
+            return new CartaDto(5,14);
         }
+
         return new CartaDto(0,0);
     }
     public static void main(String args[]) {
