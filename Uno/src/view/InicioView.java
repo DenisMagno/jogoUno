@@ -97,6 +97,7 @@ public class InicioView extends javax.swing.JFrame {
         
         this.montaRadioButtons();
         atualizaPilhaDescarte();
+        this.atualizaTotalCartas();
     }
 
     @SuppressWarnings("unchecked")
@@ -1006,6 +1007,7 @@ public class InicioView extends javax.swing.JFrame {
                 Jogo.compraMais(0);
                 montaRadioButtons();
             }
+            this.atualizaTotalCartas();
         }else{
             JOptionPane.showMessageDialog(null, "Você não pode mais fazer compras!");
         }
@@ -1026,11 +1028,17 @@ public class InicioView extends javax.swing.JFrame {
             atualizaMensagemTurno();
             montaRadioButtons();
             atualizaPilhaDescarte();
+            this.atualizaTotalCartas();
         }else{
             JOptionPane.showMessageDialog(null, "Carta não pode ser jogada!");
         }
     }//GEN-LAST:event_jbJogarActionPerformed
    
+    private void atualizaTotalCartas(){
+        this.jlQntdeCartasJ1.setText(Integer.toString(jogo.jogador1.getMao().getListaCartas().size()));
+        this.jlQntdeCartasJ2.setText(Integer.toString(jogo.jogador2.getMao().getListaCartas().size()));
+    }
+    
     //Verifica ganhador do jogo
     private void verificaGanhador(){
         if(Jogo.getTurno() == 1){
