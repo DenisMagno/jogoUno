@@ -108,10 +108,14 @@ public class InicioView extends javax.swing.JFrame {
         jlMsgVezJ1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jlNomeJ1 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        jlQntdeCartasJ1 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
         jlNomeJ2 = new javax.swing.JLabel();
         jlMsgVezJ2 = new javax.swing.JLabel();
+        jlQntdeCartasJ2 = new javax.swing.JLabel();
+        jLabel26 = new javax.swing.JLabel();
         jbJogar = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jlMonteDescarte = new javax.swing.JLabel();
@@ -222,6 +226,12 @@ public class InicioView extends javax.swing.JFrame {
         jlNomeJ1.setFont(new java.awt.Font("Alegreya Sans Light", 0, 14)); // NOI18N
         jlNomeJ1.setText("nome_j1");
 
+        jLabel24.setFont(new java.awt.Font("Alegreya Sans Light", 0, 14)); // NOI18N
+        jLabel24.setText("Total de cartas:");
+
+        jlQntdeCartasJ1.setFont(new java.awt.Font("Alegreya Sans Light", 0, 14)); // NOI18N
+        jlQntdeCartasJ1.setText("qntde_cartasJ1");
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -233,7 +243,11 @@ public class InicioView extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jLabel2)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jlNomeJ1)))
+                        .addComponent(jlNomeJ1))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel24)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jlQntdeCartasJ1)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
@@ -243,7 +257,11 @@ public class InicioView extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
                     .addComponent(jlNomeJ1))
-                .addGap(18, 18, 18)
+                .addGap(5, 5, 5)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel24)
+                    .addComponent(jlQntdeCartasJ1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jlMsgVezJ1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );
@@ -262,6 +280,12 @@ public class InicioView extends javax.swing.JFrame {
         jlMsgVezJ2.setForeground(java.awt.Color.orange);
         jlMsgVezJ2.setText("mensagem");
 
+        jlQntdeCartasJ2.setFont(new java.awt.Font("Alegreya Sans Light", 0, 14)); // NOI18N
+        jlQntdeCartasJ2.setText("qntde_cartasJ2");
+
+        jLabel26.setFont(new java.awt.Font("Alegreya Sans Light", 0, 14)); // NOI18N
+        jLabel26.setText("Total de cartas:");
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -273,7 +297,11 @@ public class InicioView extends javax.swing.JFrame {
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(jLabel4)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jlNomeJ2)))
+                        .addComponent(jlNomeJ2))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(jLabel26)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jlQntdeCartasJ2)))
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -283,7 +311,11 @@ public class InicioView extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
                     .addComponent(jlNomeJ2))
-                .addGap(35, 35, 35)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel26)
+                    .addComponent(jlQntdeCartasJ2))
+                .addGap(15, 15, 15)
                 .addComponent(jlMsgVezJ2))
         );
 
@@ -356,14 +388,15 @@ public class InicioView extends javax.swing.JFrame {
 
         jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Cartas Coloridas", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Alegreya Sans Light", 0, 14))); // NOI18N
 
-        rbVerde4.setBackground(java.awt.Color.green);
+        rbVerde4.setBackground(new java.awt.Color(239, 239, 239));
         rbVerde4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVerde4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
+        jLabel20.setBackground(new java.awt.Color(239, 239, 239));
         jLabel20.setFont(new java.awt.Font("Alegreya Sans Light", 0, 15)); // NOI18N
         jLabel20.setText("Amarelo");
 
-        rbAzul6.setBackground(java.awt.Color.blue);
+        rbAzul6.setBackground(new java.awt.Color(239, 239, 239));
         rbAzul6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAzul6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
@@ -371,7 +404,7 @@ public class InicioView extends javax.swing.JFrame {
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setText("0");
 
-        rbAzulMaisDois.setBackground(java.awt.Color.blue);
+        rbAzulMaisDois.setBackground(new java.awt.Color(239, 239, 239));
         rbAzulMaisDois.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAzulMaisDois.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
@@ -379,19 +412,19 @@ public class InicioView extends javax.swing.JFrame {
         jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel19.setText("+2");
 
-        rbAzul0.setBackground(java.awt.Color.blue);
+        rbAzul0.setBackground(new java.awt.Color(239, 239, 239));
         rbAzul0.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAzul0.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbAzulInverte.setBackground(java.awt.Color.blue);
+        rbAzulInverte.setBackground(new java.awt.Color(239, 239, 239));
         rbAzulInverte.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAzulInverte.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbVermelho4.setBackground(java.awt.Color.red);
+        rbVermelho4.setBackground(new java.awt.Color(239, 239, 239));
         rbVermelho4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVermelho4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbAmarelo9.setBackground(java.awt.Color.yellow);
+        rbAmarelo9.setBackground(new java.awt.Color(239, 239, 239));
         rbAmarelo9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAmarelo9.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
@@ -399,15 +432,15 @@ public class InicioView extends javax.swing.JFrame {
         jLabel18.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/imagem/inverte.png"))); // NOI18N
 
-        rbAmarelo8.setBackground(java.awt.Color.yellow);
+        rbAmarelo8.setBackground(new java.awt.Color(239, 239, 239));
         rbAmarelo8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAmarelo8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbAzul4.setBackground(java.awt.Color.blue);
+        rbAzul4.setBackground(new java.awt.Color(239, 239, 239));
         rbAzul4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAzul4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbAmarelo6.setBackground(java.awt.Color.yellow);
+        rbAmarelo6.setBackground(new java.awt.Color(239, 239, 239));
         rbAmarelo6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAmarelo6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
@@ -415,18 +448,18 @@ public class InicioView extends javax.swing.JFrame {
         jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel15.setText("8");
 
-        rbVerde0.setBackground(java.awt.Color.green);
+        rbVerde0.setBackground(new java.awt.Color(239, 239, 239));
         rbVerde0.setForeground(new java.awt.Color(255, 255, 255));
         rbVerde0.setBorder(javax.swing.BorderFactory.createLineBorder(java.awt.Color.white));
         rbVerde0.setContentAreaFilled(false);
         rbVerde0.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVerde0.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbAmarelo7.setBackground(java.awt.Color.yellow);
+        rbAmarelo7.setBackground(new java.awt.Color(239, 239, 239));
         rbAmarelo7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAmarelo7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbAmarelo2.setBackground(java.awt.Color.yellow);
+        rbAmarelo2.setBackground(new java.awt.Color(239, 239, 239));
         rbAmarelo2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAmarelo2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
@@ -434,7 +467,8 @@ public class InicioView extends javax.swing.JFrame {
         jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel11.setText("5");
 
-        rbVerde1.setBackground(java.awt.Color.green);
+        rbVerde1.setBackground(new java.awt.Color(239, 239, 239));
+        rbVerde1.setForeground(java.awt.SystemColor.control);
         rbVerde1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVerde1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
@@ -446,15 +480,15 @@ public class InicioView extends javax.swing.JFrame {
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel10.setText("4");
 
-        rbVermelho7.setBackground(java.awt.Color.red);
+        rbVermelho7.setBackground(new java.awt.Color(239, 239, 239));
         rbVermelho7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVermelho7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbAzul1.setBackground(java.awt.Color.blue);
+        rbAzul1.setBackground(new java.awt.Color(239, 239, 239));
         rbAzul1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAzul1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbVerdeBloqueio.setBackground(java.awt.Color.green);
+        rbVerdeBloqueio.setBackground(new java.awt.Color(239, 239, 239));
         rbVerdeBloqueio.setToolTipText("");
         rbVerdeBloqueio.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVerdeBloqueio.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -467,10 +501,11 @@ public class InicioView extends javax.swing.JFrame {
         jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel12.setText("6");
 
-        rbVermelho8.setBackground(java.awt.Color.red);
+        rbVermelho8.setBackground(new java.awt.Color(239, 239, 239));
         rbVermelho8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVermelho8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
+        jLabel21.setBackground(new java.awt.Color(239, 239, 239));
         jLabel21.setFont(new java.awt.Font("Alegreya Sans Light", 0, 15)); // NOI18N
         jLabel21.setText("Azul");
 
@@ -478,46 +513,47 @@ public class InicioView extends javax.swing.JFrame {
         jLabel17.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/imagem/bloqueia.png"))); // NOI18N
 
-        rbVermelho0.setBackground(java.awt.Color.red);
+        rbVermelho0.setBackground(new java.awt.Color(239, 239, 239));
         rbVermelho0.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVermelho0.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbAmarelo0.setBackground(java.awt.Color.yellow);
+        rbAmarelo0.setBackground(new java.awt.Color(239, 239, 239));
         rbAmarelo0.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAmarelo0.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbVerde8.setBackground(java.awt.Color.green);
+        rbVerde8.setBackground(new java.awt.Color(239, 239, 239));
         rbVerde8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVerde8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
+        jLabel5.setBackground(new java.awt.Color(239, 239, 239));
         jLabel5.setFont(new java.awt.Font("Alegreya Sans Light", 0, 15)); // NOI18N
         jLabel5.setText("Vermelho");
 
-        rbVerde9.setBackground(java.awt.Color.green);
+        rbVerde9.setBackground(new java.awt.Color(239, 239, 239));
         rbVerde9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVerde9.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbAzul5.setBackground(java.awt.Color.blue);
+        rbAzul5.setBackground(new java.awt.Color(239, 239, 239));
         rbAzul5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAzul5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbAzul2.setBackground(java.awt.Color.blue);
+        rbAzul2.setBackground(new java.awt.Color(239, 239, 239));
         rbAzul2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAzul2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbVermelho6.setBackground(java.awt.Color.red);
+        rbVermelho6.setBackground(new java.awt.Color(239, 239, 239));
         rbVermelho6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVermelho6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbVermelhoMaisDois.setBackground(java.awt.Color.red);
+        rbVermelhoMaisDois.setBackground(new java.awt.Color(239, 239, 239));
         rbVermelhoMaisDois.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVermelhoMaisDois.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbAzul3.setBackground(java.awt.Color.blue);
+        rbAzul3.setBackground(new java.awt.Color(239, 239, 239));
         rbAzul3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAzul3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbVerde2.setBackground(java.awt.Color.green);
+        rbVerde2.setBackground(new java.awt.Color(239, 239, 239));
         rbVerde2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVerde2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
@@ -525,27 +561,27 @@ public class InicioView extends javax.swing.JFrame {
         jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel14.setText("7");
 
-        rbVermelhoInverte.setBackground(java.awt.Color.red);
+        rbVermelhoInverte.setBackground(new java.awt.Color(239, 239, 239));
         rbVermelhoInverte.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVermelhoInverte.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbAzul7.setBackground(java.awt.Color.blue);
+        rbAzul7.setBackground(new java.awt.Color(239, 239, 239));
         rbAzul7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAzul7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbVermelho9.setBackground(java.awt.Color.red);
+        rbVermelho9.setBackground(new java.awt.Color(239, 239, 239));
         rbVermelho9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVermelho9.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbVerde5.setBackground(java.awt.Color.green);
+        rbVerde5.setBackground(new java.awt.Color(239, 239, 239));
         rbVerde5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVerde5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbVermelho2.setBackground(java.awt.Color.red);
+        rbVermelho2.setBackground(new java.awt.Color(239, 239, 239));
         rbVermelho2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVermelho2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbAmareloInverte.setBackground(java.awt.Color.yellow);
+        rbAmareloInverte.setBackground(new java.awt.Color(239, 239, 239));
         rbAmareloInverte.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAmareloInverte.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
@@ -553,71 +589,71 @@ public class InicioView extends javax.swing.JFrame {
         jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel16.setText("9");
 
-        rbVermelho1.setBackground(java.awt.Color.red);
+        rbVermelho1.setBackground(new java.awt.Color(239, 239, 239));
         rbVermelho1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVermelho1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbVerdeMaisDois.setBackground(java.awt.Color.green);
+        rbVerdeMaisDois.setBackground(new java.awt.Color(239, 239, 239));
         rbVerdeMaisDois.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVerdeMaisDois.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbAzul9.setBackground(java.awt.Color.blue);
+        rbAzul9.setBackground(new java.awt.Color(239, 239, 239));
         rbAzul9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAzul9.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbVermelho5.setBackground(java.awt.Color.red);
+        rbVermelho5.setBackground(new java.awt.Color(239, 239, 239));
         rbVermelho5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVermelho5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbAmareloBloqueio.setBackground(java.awt.Color.yellow);
+        rbAmareloBloqueio.setBackground(new java.awt.Color(239, 239, 239));
         rbAmareloBloqueio.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAmareloBloqueio.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbAmareloMaisDois.setBackground(java.awt.Color.yellow);
+        rbAmareloMaisDois.setBackground(new java.awt.Color(239, 239, 239));
         rbAmareloMaisDois.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAmareloMaisDois.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbAmarelo1.setBackground(java.awt.Color.yellow);
+        rbAmarelo1.setBackground(new java.awt.Color(239, 239, 239));
         rbAmarelo1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAmarelo1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbVerde7.setBackground(java.awt.Color.green);
+        rbVerde7.setBackground(new java.awt.Color(239, 239, 239));
         rbVerde7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVerde7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbAmarelo3.setBackground(java.awt.Color.yellow);
+        rbAmarelo3.setBackground(new java.awt.Color(239, 239, 239));
         rbAmarelo3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAmarelo3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbAmarelo4.setBackground(java.awt.Color.yellow);
+        rbAmarelo4.setBackground(new java.awt.Color(239, 239, 239));
         rbAmarelo4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAmarelo4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbVermelhoBloqueio.setBackground(java.awt.Color.red);
+        rbVermelhoBloqueio.setBackground(new java.awt.Color(239, 239, 239));
         rbVermelhoBloqueio.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVermelhoBloqueio.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbAzulBloqueio.setBackground(java.awt.Color.blue);
+        rbAzulBloqueio.setBackground(new java.awt.Color(239, 239, 239));
         rbAzulBloqueio.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAzulBloqueio.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbVerde3.setBackground(java.awt.Color.green);
+        rbVerde3.setBackground(new java.awt.Color(239, 239, 239));
         rbVerde3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVerde3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbVerdeInverte.setBackground(java.awt.Color.green);
+        rbVerdeInverte.setBackground(new java.awt.Color(239, 239, 239));
         rbVerdeInverte.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVerdeInverte.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbVerde6.setBackground(java.awt.Color.green);
+        rbVerde6.setBackground(new java.awt.Color(239, 239, 239));
         rbVerde6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVerde6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbAmarelo5.setBackground(java.awt.Color.yellow);
+        rbAmarelo5.setBackground(new java.awt.Color(239, 239, 239));
         rbAmarelo5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAmarelo5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        rbAzul8.setBackground(java.awt.Color.blue);
+        rbAzul8.setBackground(new java.awt.Color(239, 239, 239));
         rbAzul8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbAzul8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
@@ -628,7 +664,7 @@ public class InicioView extends javax.swing.JFrame {
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel8.setText("2");
 
-        rbVermelho3.setBackground(java.awt.Color.red);
+        rbVermelho3.setBackground(new java.awt.Color(239, 239, 239));
         rbVermelho3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         rbVermelho3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
@@ -910,19 +946,10 @@ public class InicioView extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(32, 32, 32)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel1)
-                        .addGap(64, 64, 64))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 179, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(50, 50, 50))
+                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(63, 63, 63))
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jSeparator1)
@@ -935,6 +962,14 @@ public class InicioView extends javax.swing.JFrame {
                 .addGap(68, 68, 68)
                 .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(23, 23, 23)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel1)
+                .addGap(49, 49, 49)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(50, 50, 50))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1879,6 +1914,8 @@ public class InicioView extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
@@ -1901,6 +1938,8 @@ public class InicioView extends javax.swing.JFrame {
     private javax.swing.JLabel jlMsgVezJ2;
     private javax.swing.JLabel jlNomeJ1;
     private javax.swing.JLabel jlNomeJ2;
+    private javax.swing.JLabel jlQntdeCartasJ1;
+    private javax.swing.JLabel jlQntdeCartasJ2;
     private javax.swing.JRadioButton rbAmarelo0;
     private javax.swing.JRadioButton rbAmarelo1;
     private javax.swing.JRadioButton rbAmarelo2;

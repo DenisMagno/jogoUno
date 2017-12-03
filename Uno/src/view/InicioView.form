@@ -28,23 +28,10 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
               <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <Component id="jPanel1" min="-2" pref="184" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
-                  </Group>
-              </Group>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jPanel2" min="-2" pref="179" max="-2" attributes="0"/>
-                  <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+              <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
           </Group>
           <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
@@ -60,6 +47,15 @@
               <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
               <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -128,6 +124,11 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jlNomeJ1" min="-2" max="-2" attributes="0"/>
                       </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jlQntdeCartasJ1" min="-2" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
@@ -141,7 +142,12 @@
                       <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jlNomeJ1" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel24" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlQntdeCartasJ1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
                   <Component id="jlMsgVezJ1" max="32767" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
@@ -176,6 +182,22 @@
             <Property name="text" type="java.lang.String" value="nome_j1"/>
           </Properties>
         </Component>
+        <Component class="javax.swing.JLabel" name="jLabel24">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Alegreya Sans Light" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Total de cartas:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlQntdeCartasJ1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Alegreya Sans Light" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="qntde_cartasJ1"/>
+          </Properties>
+        </Component>
       </SubComponents>
     </Container>
     <Container class="javax.swing.JPanel" name="jPanel2">
@@ -207,6 +229,11 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jlNomeJ2" min="-2" max="-2" attributes="0"/>
                       </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jlQntdeCartasJ2" min="-2" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
               </Group>
@@ -220,7 +247,12 @@
                       <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jlNomeJ2" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel26" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlQntdeCartasJ2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                   <Component id="jlMsgVezJ2" min="-2" max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -252,6 +284,22 @@
               <Color blue="0" green="c8" id="orange" palette="1" red="ff" type="palette"/>
             </Property>
             <Property name="text" type="java.lang.String" value="mensagem"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlQntdeCartasJ2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Alegreya Sans Light" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="qntde_cartasJ2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel26">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Alegreya Sans Light" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Total de cartas:"/>
           </Properties>
         </Component>
       </SubComponents>
@@ -635,7 +683,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVerde4">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="green" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -643,6 +691,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel20">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
+                </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Alegreya Sans Light" size="15" style="0"/>
                 </Property>
@@ -652,7 +703,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAzul6">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -670,7 +721,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAzulMaisDois">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -688,7 +739,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAzul0">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -697,7 +748,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAzulInverte">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -706,7 +757,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVermelho4">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="0" id="red" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -715,7 +766,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAmarelo9">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="yellow" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -735,7 +786,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAmarelo8">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="yellow" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -744,7 +795,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAzul4">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -753,7 +804,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAmarelo6">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="yellow" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -771,7 +822,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVerde0">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="green" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -791,7 +842,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAmarelo7">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="yellow" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -800,7 +851,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAmarelo2">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="yellow" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -818,7 +869,10 @@
             <Component class="javax.swing.JRadioButton" name="rbVerde1">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="green" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f0" green="f0" id="Controle" palette="2" red="f0" type="palette"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -845,7 +899,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVermelho7">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="0" id="red" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -854,7 +908,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAzul1">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -863,7 +917,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVerdeBloqueio">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="green" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="toolTipText" type="java.lang.String" value=""/>
                 <Property name="horizontalAlignment" type="int" value="0"/>
@@ -891,7 +945,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVermelho8">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="0" id="red" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -899,6 +953,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel21">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
+                </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Alegreya Sans Light" size="15" style="0"/>
                 </Property>
@@ -919,7 +976,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVermelho0">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="0" id="red" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -928,7 +985,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAmarelo0">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="yellow" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -937,7 +994,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVerde8">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="green" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -945,6 +1002,9 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel5">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
+                </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Alegreya Sans Light" size="15" style="0"/>
                 </Property>
@@ -954,7 +1014,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVerde9">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="green" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -963,7 +1023,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAzul5">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -972,7 +1032,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAzul2">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -981,7 +1041,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVermelho6">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="0" id="red" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -990,7 +1050,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVermelhoMaisDois">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="0" id="red" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -999,7 +1059,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAzul3">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1008,7 +1068,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVerde2">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="green" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1026,7 +1086,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVermelhoInverte">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="0" id="red" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1035,7 +1095,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAzul7">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1044,7 +1104,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVermelho9">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="0" id="red" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1053,7 +1113,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVerde5">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="green" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1062,7 +1122,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVermelho2">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="0" id="red" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1071,7 +1131,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAmareloInverte">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="yellow" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1089,7 +1149,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVermelho1">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="0" id="red" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1098,7 +1158,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVerdeMaisDois">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="green" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1107,7 +1167,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAzul9">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1116,7 +1176,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVermelho5">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="0" id="red" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1125,7 +1185,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAmareloBloqueio">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="yellow" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1134,7 +1194,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAmareloMaisDois">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="yellow" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1143,7 +1203,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAmarelo1">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="yellow" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1152,7 +1212,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVerde7">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="green" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1161,7 +1221,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAmarelo3">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="yellow" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1170,7 +1230,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAmarelo4">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="yellow" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1179,7 +1239,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVermelhoBloqueio">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="0" id="red" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1188,7 +1248,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAzulBloqueio">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1197,7 +1257,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVerde3">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="green" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1206,7 +1266,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVerdeInverte">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="green" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1215,7 +1275,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVerde6">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="green" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1224,7 +1284,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAmarelo5">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="ff" id="yellow" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1233,7 +1293,7 @@
             <Component class="javax.swing.JRadioButton" name="rbAzul8">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="0" id="blue" palette="1" red="0" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -1259,7 +1319,7 @@
             <Component class="javax.swing.JRadioButton" name="rbVermelho3">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="0" id="red" palette="1" red="ff" type="palette"/>
+                  <Color blue="ef" green="ef" red="ef" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
