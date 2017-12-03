@@ -9,5 +9,6 @@ public class CartaDto {
     public CartaDto(int cor, int numero){
         this.cor = cor;
         this.numero = numero;
+        this.status = 1;
     }
 }

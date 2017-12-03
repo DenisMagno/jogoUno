@@ -5,7 +5,14 @@ import java.util.Enumeration;
 import javax.swing.AbstractButton;
 import javax.swing.ButtonGroup;
 import javax.swing.JOptionPane;
+import model.Bloqueio;
+import model.Carta;
+import model.Coringa;
+import model.CoringaQuatro;
+import model.Inverte;
 import model.Jogo;
+import model.MaisDois;
+import model.Numerada;
 
 public class InicioView extends javax.swing.JFrame {
      Jogo jogo;
@@ -86,7 +93,11 @@ public class InicioView extends javax.swing.JFrame {
         this.jlNomeJ1.setText(this.jogo.jogador1.getNome());
         this.jlNomeJ2.setText(this.jogo.jogador2.getNome());
         
+        this.jlMsgVezJ1.setText("Sua vez!");
+        this.jlMsgVezJ2.setText("");
+        
         this.montaRadioButtons();
+        atualizaPilhaDescarte();
     }
 
     @SuppressWarnings("unchecked")
@@ -755,9 +766,214 @@ public class InicioView extends javax.swing.JFrame {
     }//GEN-LAST:event_jbComprarActionPerformed
 
     private void jbJogarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbJogarActionPerformed
-
+        Carta carta = this.verificaRadioButton();
+        if(jogo.verificaMao(carta.getCor(), carta.getNumero())){
+            carta.jogar();
+            Jogo.alteraTurno();
+            atualizaMensagemTurno();
+            montaRadioButtons();
+            atualizaPilhaDescarte();
+        }else{
+            JOptionPane.showMessageDialog(null, "Carta não pode ser jogada!");
+        }
     }//GEN-LAST:event_jbJogarActionPerformed
    
+    //Atualiza pilha de descarte
+    private void atualizaPilhaDescarte(){
+        Carta carta = Jogo.pilhaDescarte.leCarta();
+           
+        if(carta.getCor() == 1){
+            switch (carta.getNumero()) {
+                case 0:
+                    this.jlMonteDescarte.setText("Amarela 0");
+                break;
+                case 1:
+                    this.jlMonteDescarte.setText("Amarela 1");
+                break;
+                case 2:
+                    this.jlMonteDescarte.setText("Amarela 2");
+                break;
+                case 3:
+                    this.jlMonteDescarte.setText("Amarela 3");
+                break;
+                case 4:
+                    this.jlMonteDescarte.setText("Amarela 4");
+                break;
+                case 5:
+                    this.jlMonteDescarte.setText("Amarela 5");
+                break;
+                case 6:
+                    this.jlMonteDescarte.setText("Amarela 6");
+                break;
+                case 7:
+                    this.jlMonteDescarte.setText("Amarela 7");
+                break;
+                case 8:
+                    this.jlMonteDescarte.setText("Amarela 8");
+                break;
+                case 9:
+                    this.jlMonteDescarte.setText("Amarela 9");
+                break;
+                case 10:
+                    this.jlMonteDescarte.setText("Amarela Bloqueia");
+                break;
+                case 11:
+                    this.jlMonteDescarte.setText("Amarela Inverte");
+                break;
+                case 12:
+                    this.jlMonteDescarte.setText("Amarela / Compra +2");
+                break;
+            }
+        }else if(carta.getCor() == 2){
+            switch (carta.getNumero()) {
+                case 0:
+                    this.jlMonteDescarte.setText("Azul 0");
+                break;
+                case 1:
+                    this.jlMonteDescarte.setText("Azul 1");
+                break;
+                case 2:
+                    this.jlMonteDescarte.setText("Azul 2");
+                break;
+                case 3:
+                    this.jlMonteDescarte.setText("Azul 3");
+                break;
+                case 4:
+                    this.jlMonteDescarte.setText("Azul 4");
+                break;
+                case 5:
+                    this.jlMonteDescarte.setText("Azul 5");
+                break;
+                case 6:
+                    this.jlMonteDescarte.setText("Azul 6");
+                break;
+                case 7:
+                    this.jlMonteDescarte.setText("Azul 7");
+                break;
+                case 8:
+                    this.jlMonteDescarte.setText("Azul 8");
+                break;
+                case 9:
+                    this.jlMonteDescarte.setText("Azul 9");
+                break;
+                case 10:
+                    this.jlMonteDescarte.setText("Azul Bloqueia");
+                break;
+                case 11:
+                    this.jlMonteDescarte.setText("Azul Inverte");
+                break;
+                case 12:
+                    this.jlMonteDescarte.setText("Azul / Compra +2");
+                break;
+            }
+        }else if(carta.getCor() == 3){
+            switch (carta.getNumero()) {
+                case 0:
+                    this.jlMonteDescarte.setText("Verde 0");
+                break;
+                case 1:
+                    this.jlMonteDescarte.setText("Verde 1");
+                break;
+                case 2:
+                    this.jlMonteDescarte.setText("Verde 2");
+                break;
+                case 3:
+                    this.jlMonteDescarte.setText("Verde 3");
+                break;
+                case 4:
+                    this.jlMonteDescarte.setText("Verde 4");
+                break;
+                case 5:
+                    this.jlMonteDescarte.setText("Verde 5");
+                break;
+                case 6:
+                    this.jlMonteDescarte.setText("Verde 6");
+                break;
+                case 7:
+                    this.jlMonteDescarte.setText("Verde 7");
+                break;
+                case 8:
+                    this.jlMonteDescarte.setText("Verde 8");
+                break;
+                case 9:
+                    this.jlMonteDescarte.setText("Verde 9");
+                break;
+                case 10:
+                    this.jlMonteDescarte.setText("Verde Bloqueia");
+                break;
+                case 11:
+                    this.jlMonteDescarte.setText("Verde Inverte");
+                break;
+                case 12:
+                    this.jlMonteDescarte.setText("Verde / Compra +2");
+                break;
+            }
+        }else if(carta.getCor() == 4){
+            switch (carta.getNumero()) {
+                case 0:
+                    this.jlMonteDescarte.setText("Vermelha 0");
+                break;
+                case 1:
+                    this.jlMonteDescarte.setText("Vermelha 1");
+                break;
+                case 2:
+                    this.jlMonteDescarte.setText("Vermelha 2");
+                break;
+                case 3:
+                    this.jlMonteDescarte.setText("Vermelha 3");
+                break;
+                case 4:
+                    this.jlMonteDescarte.setText("Vermelha 4");
+                break;
+                case 5:
+                    this.jlMonteDescarte.setText("Vermelha 5");
+                break;
+                case 6:
+                    this.jlMonteDescarte.setText("Vermelha 6");
+                break;
+                case 7:
+                    this.jlMonteDescarte.setText("Vermelha 7");
+                break;
+                case 8:
+                    this.jlMonteDescarte.setText("Vermelha 8");
+                break;
+                case 9:
+                    this.jlMonteDescarte.setText("Vermelha 9");
+                break;
+                case 10:
+                    this.jlMonteDescarte.setText("Vermelha Bloqueia");
+                break;
+                case 11:
+                    this.jlMonteDescarte.setText("Vermelha Inverte");
+                break;
+                case 12:
+                    this.jlMonteDescarte.setText("Vermelha / Compra +2");
+                break;
+            }
+        }else{
+            switch(carta.getNumero()){
+                case 13:
+                    this.jlMonteDescarte.setText("Coringa");
+                break;
+                case 14:
+                    this.jlMonteDescarte.setText("Coringa / Compra +4");
+                break;
+            }
+        }
+    }
+    
+    //Atualiza mensagem de turno para jogadores
+    private void atualizaMensagemTurno(){
+        if(Jogo.getTurno() == 1){
+            this.jlMsgVezJ1.setText("Sua vez!");
+            this.jlMsgVezJ2.setText("");
+        }else{
+            this.jlMsgVezJ2.setText("Sua vez!");
+            this.jlMsgVezJ1.setText("");
+        }
+    }
+
+    //Atualiza valores dos radio buttons
     private void montaRadioButtons(){
         //Desabilita todos os rádio buttons
         Enumeration<AbstractButton> enumeration = grupo.getElements();
@@ -1259,131 +1475,130 @@ public class InicioView extends javax.swing.JFrame {
     }
 
     //Verifica qual radio button foi clicado e retorna objeto com cor e numero da carta escolhida.
-    private CartaDto verificaRadioButton(){
+    private Carta verificaRadioButton(){
         if(this.rbAmarelo0.isSelected()){
-            return new CartaDto(1, 0);
+            return new Numerada(1, 0);
         }else if(this.rbAmarelo1.isSelected()){
-            return new CartaDto(1, 1);
+            return new Numerada(1, 1);
         }else if(this.rbAmarelo2.isSelected()){
-            return new CartaDto(1, 2);
+            return new Numerada(1, 2);
         }else if(this.rbAmarelo3.isSelected()){
-            return new CartaDto(1, 3);
+            return new Numerada(1, 3);
         }else if(this.rbAmarelo4.isSelected()){
-            return new CartaDto(1, 4);
+            return new Numerada(1, 4);
         }else if(this.rbAmarelo5.isSelected()){
-            return new CartaDto(1, 5);
+            return new Numerada(1, 5);
         }else if(this.rbAmarelo6.isSelected()){
-            return new CartaDto(1, 6);
+            return new Numerada(1, 6);
         }else if(this.rbAmarelo7.isSelected()){
-            return new CartaDto(1, 7);
+            return new Numerada(1, 7);
         }else if(this.rbAmarelo8.isSelected()){
-            return new CartaDto(1, 8);
+            return new Numerada(1, 8);
         }else if(this.rbAmarelo9.isSelected()){
-            return new CartaDto(1, 9);
+            return new Numerada(1, 9);
         }else if(this.rbAmareloBloqueio.isSelected()){
-            return new CartaDto(1, 10);
+            return new Bloqueio(1, 10);
         }else if(this.rbAmareloInverte.isSelected()){
-            return new CartaDto(1, 11);
+            return new Inverte(1, 11);
         }else if(this.rbAmareloMaisDois.isSelected()){
-            return new CartaDto(1, 12);
+            return new MaisDois(1, 12);
         }else if(this.rbAzul0.isSelected()){
-            return new CartaDto(2,0);
+            return new Numerada(2,0);
         }else if(this.rbAzul1.isSelected()){
-            return new CartaDto(2,1);
+            return new Numerada(2,1);
         }else if(this.rbAzul2.isSelected()){
-            return new CartaDto(2,2);
+            return new Numerada(2,2);
         }else if(this.rbAzul3.isSelected()){
-            return new CartaDto(2,3);
+            return new Numerada(2,3);
         }else if(this.rbAzul4.isSelected()){
-            return new CartaDto(2,4);
+            return new Numerada(2,4);
         }else if(this.rbAzul5.isSelected()){
-            return new CartaDto(2,5);
+            return new Numerada(2,5);
         }else if(this.rbAzul6.isSelected()){
-            return new CartaDto(2,6);
+            return new Numerada(2,6);
         }else if(this.rbAzul7.isSelected()){
-            return new CartaDto(2,7);
+            return new Numerada(2,7);
         }else if(this.rbAzul8.isSelected()){
-            return new CartaDto(2,8);
+            return new Numerada(2,8);
         }else if(this.rbAzul9.isSelected()){
-            return new CartaDto(2,9);
+            return new Numerada(2,9);
         }else if(this.rbAzulBloqueio.isSelected()){
-            return new CartaDto(2,10);
+            return new Bloqueio(2,10);
         }else if(this.rbAzulInverte.isSelected()){
-            return new CartaDto(2,11);
+            return new Inverte(2,11);
         }else if(this.rbAzulMaisDois.isSelected()){
-            return new CartaDto(2,12);
+            return new MaisDois(2,12);
         }else if(this.rbVerde0.isSelected()){
-            return new CartaDto(3,0);
+            return new Numerada(3,0);
         }else if(this.rbVerde1.isSelected()){
-            return new CartaDto(3,1);
+            return new Numerada(3,1);
         }else if(this.rbVerde2.isSelected()){
-            return new CartaDto(3,2);
+            return new Numerada(3,2);
         }else if(this.rbVerde3.isSelected()){
-            return new CartaDto(3,3);
+            return new Numerada(3,3);
         }else if(this.rbVerde4.isSelected()){
-            return new CartaDto(3,4);
+            return new Numerada(3,4);
         }else if(this.rbVerde5.isSelected()){
-            return new CartaDto(3,5);
+            return new Numerada(3,5);
         }else if(this.rbVerde6.isSelected()){
-            return new CartaDto(3,6);
+            return new Numerada(3,6);
         }else if(this.rbVerde7.isSelected()){
-            return new CartaDto(3,7);
+            return new Numerada(3,7);
         }else if(this.rbVerde8.isSelected()){
-            return new CartaDto(3,8);
+            return new Numerada(3,8);
         }else if(this.rbVerde9.isSelected()){
-            return new CartaDto(3,9);
+            return new Numerada(3,9);
         }else if(this.rbVerdeBloqueio.isSelected()){
-            return new CartaDto(3,10);
+            return new Bloqueio(3,10);
         }else if(this.rbVerdeInverte.isSelected()){
-            return new CartaDto(3,11);
+            return new Inverte(3,11);
         }else if(this.rbVerdeMaisDois.isSelected()){
-            return new CartaDto(3,12);
+            return new MaisDois(3,12);
         }else if(this.rbVermelho0.isSelected()){
-            return new CartaDto(4,0);
+            return new Numerada(4,0);
         }else if(this.rbVermelho1.isSelected()){
-            return new CartaDto(4,1);
+            return new Numerada(4,1);
         }else if(this.rbVermelho2.isSelected()){
-            return new CartaDto(4,2);
+            return new Numerada(4,2);
         }else if(this.rbVermelho3.isSelected()){
-            return new CartaDto(4,3);
+            return new Numerada(4,3);
         }else if(this.rbVermelho4.isSelected()){
-            return new CartaDto(4,4);
+            return new Numerada(4,4);
         }else if(this.rbVermelho5.isSelected()){
-            return new CartaDto(4,5);
+            return new Numerada(4,5);
         }else if(this.rbVermelho6.isSelected()){
-            return new CartaDto(4,6);
+            return new Numerada(4,6);
         }else if(this.rbVermelho7.isSelected()){
-            return new CartaDto(4,7);
+            return new Numerada(4,7);
         }else if(this.rbVermelho8.isSelected()){
-            return new CartaDto(4,8);
+            return new Numerada(4,8);
         }else if(this.rbVermelho9.isSelected()){
-            return new CartaDto(4,9);
+            return new Numerada(4,9);
         }else if(this.rbVermelhoBloqueio.isSelected()){
-            return new CartaDto(4,10);
+            return new Bloqueio(4,10);
         }else if(this.rbVermelhoInverte.isSelected()){
-            return new CartaDto(4,11);
+            return new Inverte(4,11);
         }else if(this.rbVermelhoMaisDois.isSelected()){
-            return new CartaDto(4,12);
+            return new MaisDois(4,12);
         }else if(this.rbCoringa1.isSelected()){
-            return new CartaDto(5,13);
+            return new Coringa(5,13);
         }else if(this.rbCoringa2.isSelected()){
-            return new CartaDto(5,13);
+            return new Coringa(5,13);
         }else if(this.rbCoringa3.isSelected()){
-            return new CartaDto(5,13);
+            return new Coringa(5,13);
         }else if(this.rbCoringa4.isSelected()){
-            return new CartaDto(5,13);
+            return new Coringa(5,13);
         }else if(this.rbCoringaQuatro1.isSelected()){
-            return new CartaDto(5,14);
+            return new CoringaQuatro(5,14);
         }else if(this.rbCoringaQuatro2.isSelected()){
-            return new CartaDto(5,14);
+            return new CoringaQuatro(5,14);
         }else if(this.rbCoringaQuatro3.isSelected()){
-            return new CartaDto(5,14);
-        }else if(this.rbCoringaQuatro4.isSelected()){
-            return new CartaDto(5,14);
+            return new CoringaQuatro(5,14);
+        }else{
+            return new CoringaQuatro(5,14);
         }
-
-        return new CartaDto(0,0);
     }
+    
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">

@@ -56,17 +56,13 @@ public class Jogo {
     }
 
     // Verifica se há alguma carta na mão do jogador que ele possa jogar no monte de descarte
-    public static boolean verificaMao(Mao mao, Descarte descarte){
-        int i;
-
-        for(i = 0; i < mao.getListaCartas().size(); i++){
-            if(mao.leCarta(i).getNumero() == descarte.leCarta().getNumero()){
-                return true;
-            }else if(mao.leCarta(i).getCor() == descarte.leCarta().getCor()){
-                return true;
-            }
+    public boolean verificaMao(int cor, int numero){
+         if(numero == pilhaDescarte.leCarta().getNumero()){
+            return true;
+        }else if(cor == pilhaDescarte.leCarta().getCor()){
+            return true;
         }
 
         return false;
-    }    
+    }
 }
