@@ -1,6 +1,5 @@
 package view;
 
-import dataTransferObject.CartaDto;
 import java.util.Enumeration;
 import javax.swing.AbstractButton;
 import javax.swing.ButtonGroup;
@@ -756,12 +755,32 @@ public class InicioView extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jbComprarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbComprarActionPerformed
-
+        if(Jogo.getQtdeCompra() > 0){
+            if(Jogo.getTurno() == 1){
+                jogo.jogador1.getMao().setCarta(jogo.monteCompra.getCarta());
+                Jogo.compraMais(0);
+                montaRadioButtons();
+            }else{
+                jogo.jogador2.getMao().setCarta(jogo.monteCompra.getCarta());
+                Jogo.compraMais(0);
+                montaRadioButtons();
+            }
+        }else{
+            JOptionPane.showMessageDialog(null, "Você não pode mais fazer compras!");
+        }
     }//GEN-LAST:event_jbComprarActionPerformed
 
     private void jbJogarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbJogarActionPerformed
         Carta carta = this.verificaRadioButton();
         if(jogo.verificaMao(carta.getCor(), carta.getNumero())){
+            if(Jogo.getTurno() == 1){
+                Jogo.pilhaDescarte.setCarta(jogo.jogador1.getMao().getCarta(carta));
+            }else{
+                Jogo.pilhaDescarte.setCarta(jogo.jogador2.getMao().getCarta(carta));
+            }
+
+            verificaGanhador();
+
             Jogo.alteraTurno();
             atualizaMensagemTurno();
             montaRadioButtons();
@@ -771,6 +790,19 @@ public class InicioView extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jbJogarActionPerformed
    
+    //Verifica ganhador do jogo
+    private void verificaGanhador(){
+        if(Jogo.getTurno() == 1){
+            if(jogo.jogador1.getMao().getListaCartas().size() == 0){
+                JOptionPane.showMessageDialog(null, "O jogador 1 venceu \\o/");
+            }
+        }else{
+            if(jogo.jogador2.getMao().getListaCartas().size() == 0){
+                JOptionPane.showMessageDialog(null, "O jogador 2 venceu \\o/");
+            }
+        }
+    }
+    
     //Atualiza pilha de descarte
     private void atualizaPilhaDescarte(){
         Carta carta = Jogo.pilhaDescarte.leCarta();

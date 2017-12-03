@@ -49,10 +49,16 @@ public class Jogo {
         }else{
             Jogo.turno = 1;
         }
+        
+        Jogo.qtdeCompra = 1;
     }
     
     public static int getTurno(){
         return Jogo.turno;
+    }
+    
+    public static int getQtdeCompra(){
+        return Jogo.qtdeCompra;
     }
 
     // Verifica se há alguma carta na mão do jogador que ele possa jogar no monte de descarte

@@ -23,6 +23,25 @@ public class Mao extends Baralho{
 
         return carta;
     }
+    
+    //Literalmente TIRA a carta da mão do jogador
+    public Carta getCarta(Carta carta){
+        Carta aux;
+        int i;
+        for(i = 0; i < this.quantidade; i++){
+            if(carta.cor == this.cartas.get(i).cor && carta.numero == this.cartas.get(i).numero){
+                aux = cartas.get(i);
+
+                cartas.remove(i);
+        
+                this.quantidade--;
+
+                return aux;
+            }
+        }
+        
+        return carta;
+    }
 
     public void setCarta(Carta carta) {
         this.cartas.add(carta);
