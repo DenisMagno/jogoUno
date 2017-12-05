@@ -960,10 +960,6 @@ public class InicioView extends javax.swing.JFrame {
                 .addComponent(jbJogar, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(334, 334, 334))
             .addGroup(layout.createSequentialGroup()
-                .addGap(68, 68, 68)
-                .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(layout.createSequentialGroup()
                 .addGap(23, 23, 23)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -971,6 +967,10 @@ public class InicioView extends javax.swing.JFrame {
                 .addGap(49, 49, 49)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(50, 50, 50))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(35, 35, 35)
+                .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1000,13 +1000,14 @@ public class InicioView extends javax.swing.JFrame {
         if(Jogo.getQtdeCompra() > 0){
             if(Jogo.getTurno() == 1){
                 jogo.jogador1.getMao().setCarta(jogo.monteCompra.getCarta());
-                Jogo.compraMais(0);
+                Jogo.compraMais(Jogo.getQtdeCompra() - 1);
                 montaRadioButtons();
             }else{
                 jogo.jogador2.getMao().setCarta(jogo.monteCompra.getCarta());
-                Jogo.compraMais(0);
+                Jogo.compraMais(Jogo.getQtdeCompra() - 1);
                 montaRadioButtons();
             }
+
             this.atualizaTotalCartas();
         }else{
             JOptionPane.showMessageDialog(null, "Você não pode mais fazer compras!");
@@ -1015,22 +1016,30 @@ public class InicioView extends javax.swing.JFrame {
 
     private void jbJogarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbJogarActionPerformed
         Carta carta = this.verificaRadioButton();
-        if(jogo.verificaMao(carta.getCor(), carta.getNumero())){
-            if(Jogo.getTurno() == 1){
-                Jogo.pilhaDescarte.setCarta(jogo.jogador1.getMao().getCarta(carta));
-            }else{
-                Jogo.pilhaDescarte.setCarta(jogo.jogador2.getMao().getCarta(carta));
-            }
-
-            verificaGanhador();
-
-            Jogo.alteraTurno();
-            atualizaMensagemTurno();
-            montaRadioButtons();
-            atualizaPilhaDescarte();
-            this.atualizaTotalCartas();
+        
+        if((Jogo.pilhaDescarte.leCarta().getNumero() == 12 || Jogo.pilhaDescarte.leCarta().getNumero() == 14) && Jogo.getQtdeCompra() != 0){
+            JOptionPane.showMessageDialog(null, "Você precisa comprar "+Jogo.getQtdeCompra()+" cartas");
         }else{
-            JOptionPane.showMessageDialog(null, "Carta não pode ser jogada!");
+            if(jogo.verificaMao(carta.getCor(), carta.getNumero())){
+                if(Jogo.getTurno() == 1){
+                    jogo.jogador1.getMao().leCarta(carta).jogar();
+                    Jogo.pilhaDescarte.setCarta(jogo.jogador1.getMao().getCarta(carta));
+                }else{
+                    jogo.jogador2.getMao().leCarta(carta).jogar();
+                    Jogo.pilhaDescarte.setCarta(jogo.jogador2.getMao().getCarta(carta));
+                }
+
+                verificaGanhador();
+
+                Jogo.alteraTurno();
+                atualizaMensagemTurno();
+                montaRadioButtons();
+                atualizaPilhaDescarte();
+                this.atualizaTotalCartas();
+                System.out.println(Jogo.getQtdeCompra());
+            }else{
+                JOptionPane.showMessageDialog(null, "Carta não pode ser jogada!");
+            }
         }
     }//GEN-LAST:event_jbJogarActionPerformed
    

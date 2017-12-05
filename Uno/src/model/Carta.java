@@ -14,6 +14,7 @@ public abstract class Carta {
     protected int cor;
     protected int numero;
     protected int status;
+    protected int corSelecionada;
 
     public Carta(int cor, int numero) {
         this.cor = cor;
@@ -35,6 +36,10 @@ public abstract class Carta {
 
     public int getNumero() {
         return numero;
+    }
+    
+    public int getCorSelecionada() {
+        return corSelecionada;
     }
     
     public abstract void jogar();

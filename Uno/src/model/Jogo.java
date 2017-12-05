@@ -49,8 +49,6 @@ public class Jogo {
         }else{
             Jogo.turno = 1;
         }
-        
-        Jogo.qtdeCompra = 1;
     }
     
     public static int getTurno(){
@@ -63,9 +61,20 @@ public class Jogo {
 
     // Verifica se há alguma carta na mão do jogador que ele possa jogar no monte de descarte
     public boolean verificaMao(int cor, int numero){
-         if(numero == pilhaDescarte.leCarta().getNumero()){
+        if(pilhaDescarte.leCarta().getCor() == 5){
+            if(numero == pilhaDescarte.leCarta().getNumero()){
+                return true;
+            }else if(cor == pilhaDescarte.leCarta().getCorSelecionada()){
+                return true;
+            }else if(cor == 5){
+                return true;
+            }
+        }
+        if(numero == pilhaDescarte.leCarta().getNumero()){
             return true;
         }else if(cor == pilhaDescarte.leCarta().getCor()){
+            return true;
+        }else if(cor == 5){
             return true;
         }
 

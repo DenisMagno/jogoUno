@@ -56,6 +56,18 @@ public class Mao extends Baralho{
     public Carta leCarta(int i) {
         return cartas.get(i);
     }
+    
+    //Literalmente TIRA a carta da mão do jogador
+    public Carta leCarta(Carta carta){
+        int i;
+        for(i = 0; i < this.quantidade; i++){
+            if(carta.cor == this.cartas.get(i).cor && carta.numero == this.cartas.get(i).numero){
+                return cartas.get(i);
+            }
+        }
+        
+        return carta;
+    }
 
     private void defineMao(){
         cartas = new ArrayList<Carta>();
